@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scottsdale Fourplex | Project Site</title>
+<meta name="description" content="Project site for the Scottsdale fourplex: floor plans, drawing sets and field-to-office communication for investors, developers and municipal reviewers.">
+<style>
+  :root{
+    --paper:#f6f5f1; --card:#ffffff; --ink:#17202a; --muted:#5b6670; --rule:#d7d4c9;
+    --green:#2f4a45; --green-2:#223632; --brass:#a9854a; --soft:#ecebe4; --grid:#e2dfd4;
+    --ok:#2e6b45; --warn:#9a6a12; --open:#8a2f2f;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{--paper:#12181a; --card:#1a2326; --ink:#e9eeec; --muted:#a2b0b2; --rule:#2c3a3d;
+      --green:#7fb3a7; --green-2:#a3cfc4; --brass:#d1ac6e; --soft:#182124; --grid:#20302f;
+      --ok:#7fc79a; --warn:#e0b25a; --open:#e08a8a;}
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font:16.5px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  h1,h2,h3{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;font-weight:600;letter-spacing:-.01em}
+  a{color:var(--green)}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+  header.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--paper) 94%,transparent);
+    backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:62px}
+  .brand{font-family:Georgia,serif;font-weight:700;font-size:1.1rem;color:var(--ink);text-decoration:none}
+  .brand small{display:block;font:600 .62rem/1 system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--brass);margin-top:3px}
+  nav ul{display:none;list-style:none;margin:0;padding:0;gap:22px}
+  nav a{color:var(--muted);text-decoration:none;font-size:.9rem;font-weight:600}
+  nav a:hover{color:var(--green)}
+  @media(min-width:860px){nav ul{display:flex}}
+  .hero{position:relative;padding:84px 0 72px;border-bottom:1px solid var(--rule);
+    background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+    background-size:32px 32px;background-position:-1px -1px}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,transparent 55%,var(--paper));pointer-events:none}
+  .hero .wrap{position:relative;z-index:1}
+  .kicker{font:700 .74rem/1 system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:var(--brass)}
+  h1{font-size:clamp(2.2rem,5.6vw,3.9rem);line-height:1.05;margin:.35em 0 .3em;max-width:16ch}
+  .lead{font-size:1.15rem;color:var(--muted);max-width:60ch}
+  .status{display:inline-flex;align-items:center;gap:8px;margin-top:26px;padding:8px 14px;border:1px solid var(--rule);
+    background:var(--card);border-radius:4px;font-size:.85rem;font-weight:600}
+  .dot{width:9px;height:9px;border-radius:50%;background:var(--brass)}
+  .btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+  .btn{display:inline-block;padding:13px 22px;border:1.5px solid var(--green);background:var(--green);color:#fff;
+    text-decoration:none;font-weight:700;font-size:.95rem;border-radius:3px}
+  .btn:hover{background:var(--green-2);border-color:var(--green-2)}
+  .btn.ghost{background:transparent;color:var(--green)}
+  .btn.ghost:hover{background:var(--soft)}
+  @media(prefers-color-scheme:dark){.btn{color:#0c1213}.btn.ghost{color:var(--green)}}
+  section{padding:68px 0;border-bottom:1px solid var(--rule)}
+  section.alt{background:var(--soft)}
+  .sec-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px;margin-bottom:28px}
+  .num{font:700 .8rem/1 system-ui,sans-serif;letter-spacing:.2em;color:var(--brass)}
+  h2{font-size:clamp(1.55rem,3.2vw,2.2rem);line-height:1.15;margin:0}
+  .sub{color:var(--muted);max-width:66ch;margin:.4em 0 0}
+  .grid{display:grid;gap:20px}
+  @media(min-width:760px){.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}}
+  .card{background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:24px}
+  .card h3{margin:.1em 0 .35em;font-size:1.12rem}
+  .card p{margin:0;color:var(--muted);font-size:.96rem}
+  .plan{background:var(--card);border:1px solid var(--rule);border-radius:4px;overflow:hidden}
+  .plan svg{display:block;width:100%;height:auto;background:var(--paper)}
+  .plan .meta{padding:18px 22px 22px;border-top:1px solid var(--rule)}
+  .plan h3{margin:0 0 .25em;font-size:1.15rem}
+  .plan p{margin:0;color:var(--muted);font-size:.93rem}
+  .pill{display:inline-block;font:700 .68rem/1 system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;
+    padding:5px 9px;border-radius:3px;border:1px solid var(--rule);color:var(--muted);background:var(--soft)}
+  .pill.ok{color:var(--ok)} .pill.warn{color:var(--warn)} .pill.open{color:var(--open)}
+  .tablewrap{overflow-x:auto;background:var(--card);border:1px solid var(--rule);border-radius:4px}
+  table{width:100%;border-collapse:collapse;font-size:.92rem;min-width:620px}
+  th{font:700 .7rem/1 system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:left;
+    padding:14px 16px;border-bottom:1px solid var(--rule);background:var(--soft)}
+  td{padding:14px 16px;border-bottom:1px solid var(--rule);vertical-align:top}
+  tr:last-child td{border-bottom:0}
+  .empty{padding:34px 22px;text-align:center;color:var(--muted)}
+  .empty strong{display:block;color:var(--ink);font-family:Georgia,serif;font-size:1.05rem;margin-bottom:4px}
+  code{font:.86em ui-monospace,Menlo,Consolas,monospace;background:var(--soft);padding:2px 6px;border-radius:3px}
+  .flow{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+  @media(min-width:860px){.flow{grid-template-columns:repeat(4,1fr)}}
+  .flow li{background:var(--card);border:1px solid var(--rule);border-top:3px solid var(--brass);border-radius:4px;padding:20px}
+  .flow b{display:block;font-family:Georgia,serif;font-size:1.05rem;margin-bottom:.3em}
+  .flow span{font-size:.92rem;color:var(--muted)}
+  .placeholder{border:1.5px dashed var(--rule);border-radius:4px;padding:30px;background:var(--card);color:var(--muted)}
+  footer{padding:40px 0 64px;color:var(--muted);font-size:.88rem}
+  footer .rule{border-top:1px solid var(--rule);padding-top:22px}
+  a:focus-visible,.btn:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="#top">Scottsdale Fourplex<small>Project site</small></a>
+    <nav aria-label="Primary"><ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#plans">Floor plans</a></li>
+      <li><a href="#sheets">Drawing sets</a></li>
+      <li><a href="#communication">Field &amp; office</a></li>
+      <li><a href="#rfis">RFI log</a></li>
+      <li><a href="#investment">Investment</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<main id="top">
+
+<div class="hero">
+  <div class="wrap">
+    <div class="kicker">Residential development &middot; Scottsdale, Arizona</div>
+    <h1>A fourplex, documented from first sketch to final inspection.</h1>
+    <p class="lead">Three floor plans, complete working drawing sets and a single record of every question asked between the field and the office. Written for investors, developers and municipal reviewers.</p>
+    <div class="status"><span class="dot" aria-hidden="true"></span>Working draft &middot; documents in progress</div>
+    <div class="btns">
+      <a class="btn" href="#plans">View floor plans</a>
+      <a class="btn ghost" href="#sheets">Drawing index</a>
+    </div>
+  </div>
+</div>
+
+<section id="overview">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">01</span><h2>Project overview</h2></div>
+    <div class="grid g3">
+      <div class="card"><h3>Program</h3><p>Four dwelling units on one site. [Unit mix, bedroom and bath counts, and square footage to be added.]</p></div>
+      <div class="card"><h3>Site</h3><p>[Address, parcel number, zoning district, lot size and setbacks to be added.]</p></div>
+      <div class="card"><h3>Schedule</h3><p>[Entitlement, permitting and construction milestones to be added.]</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="plans" class="alt">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">02</span><h2>Three floor plans</h2></div>
+    <p class="sub" style="margin-bottom:28px">Each plan will be issued with a complete working set. Drawings appear here as they are released.</p>
+    <div class="grid g3" id="planGrid"></div>
+  </div>
+</section>
+
+<section id="sheets">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">03</span><h2>Drawing sets</h2></div>
+    <p class="sub" style="margin-bottom:24px">The sheet index lists every drawing, its revision and its status, so reviewers always know which set is current.</p>
+    <div class="tablewrap"><table aria-label="Drawing sheet index">
+      <thead><tr><th>Sheet</th><th>Title</th><th>Plan</th><th>Rev</th><th>Date</th><th>Status</th></tr></thead>
+      <tbody id="sheetBody"></tbody>
+    </table><div id="sheetEmpty" class="empty" hidden></div></div>
+  </div>
+</section>
+
+<section id="communication" class="alt">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">04</span><h2>Field and office communication</h2></div>
+    <p class="sub" style="margin-bottom:26px">Questions, approvals and changes follow a written trail, so decisions made in the field are visible to the office, the lender and the building department.</p>
+    <ol class="flow">
+      <li><b>RFI</b><span>A request for information. The field asks a question the drawings do not answer; the office answers in writing.</span></li>
+      <li><b>Submittal</b><span>Product data, shop drawings or samples sent for review before anything is ordered or installed.</span></li>
+      <li><b>Change order</b><span>A written change to scope, cost or schedule, approved before the work proceeds.</span></li>
+      <li><b>Field report</b><span>A dated record of progress, conditions and issues observed on site.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section id="rfis">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">05</span><h2>RFI log</h2></div>
+    <div class="tablewrap"><table aria-label="RFI log">
+      <thead><tr><th>No.</th><th>Subject</th><th>From</th><th>To</th><th>Date</th><th>Status</th></tr></thead>
+      <tbody id="rfiBody"></tbody>
+    </table><div id="rfiEmpty" class="empty" hidden></div></div>
+  </div>
+</section>
+
+<section id="investment" class="alt">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">06</span><h2>Investment and business model</h2></div>
+    <div class="placeholder">[Business model, capital structure, projected costs and returns, and development timeline to be added from the business plan.]</div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap"><div class="rule">
+    <p><strong>Contact:</strong> [Name, company, email and phone to be added.]</p>
+    <p>Working draft. Drawings and figures are preliminary, are not for construction, and are subject to change and to review by the City of Scottsdale and other authorities having jurisdiction.</p>
+    <p>&copy; <span id="yr">2026</span> Scottsdale Fourplex. All rights reserved.</p>
+  </div></div>
+</footer>
+
+<script>
+(function(){
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  var PLANS = [
+    {k:'A', name:'Plan A', note:'[Description, unit area and bed/bath count to be added.]'},
+    {k:'B', name:'Plan B', note:'[Description, unit area and bed/bath count to be added.]'},
+    {k:'C', name:'Plan C', note:'[Description, unit area and bed/bath count to be added.]'}
+  ];
+  function esc(s){var d=document.createElement('div');d.textContent=(s==null?'':String(s));return d.innerHTML;}
+  function pill(status){
+    var s=(status||'').toLowerCase(), c='';
+    if(/(issued|closed|approved|answered|complete)/.test(s)) c='ok';
+    else if(/(open|pending|review|draft|revise)/.test(s)) c=(s==='open'?'open':'warn');
+    return '<span class="pill '+c+'">'+esc(status||'Unspecified')+'</span>';
+  }
+  function planSvg(letter){
+    return '<svg viewBox="0 0 400 260" role="img" aria-label="Placeholder for Plan '+letter+' floor plan drawing">'
+     +'<defs><pattern id="g'+letter+'" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="currentColor" stroke-opacity=".12"/></pattern></defs>'
+     +'<rect width="400" height="260" fill="url(#g'+letter+')" style="color:var(--green)"/>'
+     +'<rect x="60" y="40" width="280" height="180" fill="none" stroke="currentColor" stroke-width="2.5" stroke-dasharray="8 6" style="color:var(--green)" opacity=".55"/>'
+     +'<line x1="200" y1="40" x2="200" y2="220" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 5" style="color:var(--green)" opacity=".4"/>'
+     +'<line x1="60" y1="130" x2="340" y2="130" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 5" style="color:var(--green)" opacity=".4"/>'
+     +'<text x="200" y="136" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="currentColor" style="color:var(--green)" opacity=".8">Plan '+letter+'</text>'
+     +'<text x="200" y="244" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" letter-spacing="2" fill="currentColor" style="color:var(--muted)">DRAWING TO BE ADDED</text>'
+     +'</svg>';
+  }
+
+  function renderPlans(sheets){
+    var host=document.getElementById('planGrid'), html='';
+    PLANS.forEach(function(p){
+      var related=(sheets||[]).filter(function(s){return String(s.plan||'').toUpperCase()===p.k;});
+      var first=related.filter(function(s){return /\.(png|jpe?g|svg|webp)$/i.test(s.file||'');})[0];
+      var visual = first
+        ? '<img src="'+esc(first.file)+'" alt="'+esc(p.name)+' floor plan" style="display:block;width:100%;height:auto">'
+        : planSvg(p.k);
+      html+='<article class="plan">'+visual+'<div class="meta"><h3>'+p.name+'</h3><p>'+esc(p.note)+'</p>'
+          +'<p style="margin-top:10px">'+(related.length? related.length+' sheet'+(related.length>1?'s':'')+' in the index' : '<span class="pill">Not yet issued</span>')+'</p></div></article>';
+    });
+    host.innerHTML=html;
+  }
+
+  function renderSheets(list){
+    var body=document.getElementById('sheetBody'), empty=document.getElementById('sheetEmpty');
+    if(!list.length){
+      body.innerHTML=''; empty.hidden=false;
+      empty.innerHTML='<strong>No sheets issued yet</strong>Drawings will be listed here as they are released. Add entries to <code>data/sheets.json</code>.';
+      return;
+    }
+    empty.hidden=true;
+    body.innerHTML=list.map(function(s){
+      var title=s.file?'<a href="'+esc(s.file)+'">'+esc(s.title)+'</a>':esc(s.title);
+      return '<tr><td><strong>'+esc(s.sheet)+'</strong></td><td>'+title+'</td><td>'+esc(s.plan)+'</td><td>'+esc(s.revision)+'</td><td>'+esc(s.date)+'</td><td>'+pill(s.status)+'</td></tr>';
+    }).join('');
+  }
+
+  function renderRfis(list){
+    var body=document.getElementById('rfiBody'), empty=document.getElementById('rfiEmpty');
+    if(!list.length){
+      body.innerHTML=''; empty.hidden=false;
+      empty.innerHTML='<strong>No RFIs logged yet</strong>Requests for information will appear here with their responses. Add entries to <code>data/rfis.json</code>.';
+      return;
+    }
+    empty.hidden=true;
+    body.innerHTML=list.map(function(r){
+      return '<tr><td><strong>'+esc(r.number)+'</strong></td><td>'+esc(r.subject)+(r.response?'<br><span style="color:var(--muted);font-size:.88rem">'+esc(r.response)+'</span>':'')+'</td><td>'+esc(r.from)+'</td><td>'+esc(r.to)+'</td><td>'+esc(r.date)+'</td><td>'+pill(r.status)+'</td></tr>';
+    }).join('');
+  }
+
+  function load(url){
+    return fetch(url,{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();})
+      .catch(function(){return [];});
+  }
+  renderPlans([]);
+  Promise.all([load('data/sheets.json'),load('data/rfis.json')]).then(function(res){
+    var sheets=Array.isArray(res[0])?res[0]:[], rfis=Array.isArray(res[1])?res[1]:[];
+    renderPlans(sheets); renderSheets(sheets); renderRfis(rfis);
+  });
+})();
+</script>
+</body>
+</html>

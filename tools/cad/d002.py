@@ -145,7 +145,7 @@ R(0, z, W, 0.5, "l", 0.9); z += 0.5
 lx = 1.4 + W / 8 + 0.4
 for (yy, t) in [(z - 0.25, "FINISH FLOOR (LVP OR TILE) ON 1/4\" ACOUSTIC MAT"),
                 (z - 0.9, "3/4\" T&G OSB SUBFLOOR, GLUED + SCREWED"),
-                (zt + 6, "11⅞\" OPEN-WEB FLOOR TRUSS @ 24\" O.C. (S-102)"),
+                (zt + 6, "11-7/8\" OPEN-WEB FLOOR TRUSS @ 24\" O.C. (S-102)"),
                 (zt - 0.5, "1\" AIR SPACE — NOTHING ATTACHED TO THE TRUSSES"),
                 (6, "INDEPENDENT 2x6 CEILING JOISTS @ 16\" O.C., R-19"),
                 (1.5, "RESILIENT CHANNEL @ 16\" O.C."),

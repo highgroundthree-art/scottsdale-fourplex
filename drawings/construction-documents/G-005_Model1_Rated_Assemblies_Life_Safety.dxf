@@ -83,7 +83,7 @@ TABLE
 2
 LAYER
 70
-30
+32
 0
 LAYER
 2
@@ -142,6 +142,26 @@ A-FLOR-FIXT
 0
 62
 6
+6
+CONTINUOUS
+0
+LAYER
+2
+A-DETL
+70
+0
+62
+7
+6
+CONTINUOUS
+0
+LAYER
+2
+A-DETL-INSL
+70
+0
+62
+8
 6
 CONTINUOUS
 0
@@ -4727,7 +4747,7 @@ A-ANNO-TEXT
 40
 6.5280000000000005
 1
-Finish over acoustic mat, 3/4" T&G subfloor, 11⅞" open-web trusses @ 24", independent 2x6 ceiling joists @ 16" with R-19, RC, 2 layers 5/8" Type X GWB
+Finish over acoustic mat, 3/4" T&G subfloor, 11-7/8" open-web trusses @ 24", independent 2x6 ceiling joists @ 16" with R-19, RC, 2 layers 5/8" Type X GWB
 50
 0
 72

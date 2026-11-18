@@ -217,7 +217,7 @@ rows = [
     ("W1", "Unit separation wall", "1 HR", "UL U341 / GA WP 3820", "Staggered 2x4 studs @ 16\" on 2x6 plates, 3½\" batts woven, 5/8\" Type X GWB each side, resilient channel one side", "STC 55", "D-002/1"),
     ("W2", "Exterior wall, west (FSD 7')", "1 HR", "UL U356 / GA WP 8105", "2x6 studs @ 16\", R-21 batts, 5/8\" Type X GWB inside, 5/8\" Type X sheathing + 7/8\" 3-coat stucco outside", "—", "D-002/2"),
     ("EXT", "Exterior wall, typical", "0 HR", "—", "2x6 studs @ 16\", R-21 batts, 1/2\" GWB inside, 7/16\" OSB + WRB + 7/8\" 3-coat stucco outside", "—", "D-001/1"),
-    ("F1", "Floor / ceiling between units", "1 HR", "UL L528 / GA FC 5512", "Finish over acoustic mat, 3/4\" T&G subfloor, 11⅞\" open-web trusses @ 24\", independent 2x6 ceiling joists @ 16\" with R-19, RC, 2 layers 5/8\" Type X GWB", "50 / 50", "D-002/3"),
+    ("F1", "Floor / ceiling between units", "1 HR", "UL L528 / GA FC 5512", "Finish over acoustic mat, 3/4\" T&G subfloor, 11-7/8\" open-web trusses @ 24\", independent 2x6 ceiling joists @ 16\" with R-19, RC, 2 layers 5/8\" Type X GWB", "50 / 50", "D-002/3"),
     ("R1", "Roof / ceiling", "0 HR", "—", "Clay tile on 2 layers underlayment, 7/16\" OSB, trusses @ 24\", R-38 blown, 5/8\" Type X GWB ceiling", "—", "A-301.1"),
     ("P1", "Interior partition", "0 HR", "—", "2x4 studs @ 16\", 1/2\" GWB each side; 5/8\" moisture-resistant at wet walls", "—", "—"),
     ("DS", "Attic draftstop", "—", "IBC 718.4", "W1 wall continued to the roof deck; 5/8\" Type X GWB both sides above the ceiling, joints taped", "—", "D-002/4"),

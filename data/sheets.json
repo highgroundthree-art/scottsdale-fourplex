@@ -259,5 +259,32 @@
     "date": "2026-11-18",
     "status": "Design Development",
     "file": "drawings/construction-documents/D-002_Model1_Rated_Assembly_Details.pdf"
+  },
+  {
+    "sheet": "A-302",
+    "title": "Model 1, Wall Sections (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-302_Model1_Wall_Sections.pdf"
+  },
+  {
+    "sheet": "D-001",
+    "title": "Model 1, Envelope Details (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/D-001_Model1_Envelope_Details.pdf"
+  },
+  {
+    "sheet": "S-101",
+    "title": "Model 1, Foundation Plan (PT slab, design intent) (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-101_Model1_Foundation_Plan.pdf"
   }
 ]

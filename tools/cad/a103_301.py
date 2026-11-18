@@ -257,7 +257,7 @@ for (x, z, n, dx, dz) in [(12, 9.4, 1, -0.4, 0.3), (6, PLATE + 0.3, 2, 0.0, 0.5)
 SL.drawing_title(s, 1.35, 2.5, "2", "A-301.1", "BUILDING SECTION 2 — NORTH-SOUTH THROUGH THE STAIR, LOOKING WEST", "SCALE: 1/4\" = 1'-0\"   CUT AT 27'-6\" FROM THE WEST FACE (SEE A-101.1)", w=17.0)
 
 KEYS = [
-    "F1 FLOOR/CEILING — 1 HR, STC/IIC 50 (field 45): finish floor over acoustic mat, 3/4\" T&G subfloor glued and screwed, 11⅞\" open-web floor trusses @ 24\" o.c. (nothing attached below), 1\" air gap / MEP zone, independent 2x6 ceiling joists @ 16\" o.c. with R-19 batts, two layers 5/8\" Type X GWB on resilient channel (UL L521 or L528, verify). Floor to floor 10'-8\" ±.",
+    "F1 FLOOR/CEILING — 1 HR, STC/IIC 50 (field 45): finish floor over acoustic mat, 3/4\" T&G subfloor glued and screwed, 11-7/8\" open-web floor trusses @ 24\" o.c. (nothing attached below), 1\" air gap / MEP zone, independent 2x6 ceiling joists @ 16\" o.c. with R-19 batts, two layers 5/8\" Type X GWB on resilient channel (UL L521 or L528, verify). Floor to floor 10'-8\" ±.",
     "Upper ceiling: 5/8\" Type X GWB on truss bottom chords; R-38 blown insulation; vented attic above (A-103.1).",
     "Roof: clay tile, two layers of underlayment, 7/16\" OSB on engineered trusses @ 24\" o.c., 4:12 (S-103). Heel height to suit R-38 at the plate.",
     "W1 unit separation wall continuous from top of slab to the underside of the roof deck; divides the attic. Firestop every penetration (D-002).",

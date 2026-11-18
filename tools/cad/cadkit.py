@@ -14,6 +14,9 @@ LW = {"xh": 0.70 * MM, "h": 0.50 * MM, "m": 0.35 * MM, "l": 0.25 * MM, "f": 0.18
 LAYERS = {  # name: (aci color, linetype)
     "A-WALL": (7, "CONTINUOUS"), "A-WALL-PATT": (8, "CONTINUOUS"), "A-WALL-RATE": (1, "CONTINUOUS"),
     "A-DOOR": (2, "CONTINUOUS"), "A-GLAZ": (4, "CONTINUOUS"), "A-FLOR-FIXT": (6, "CONTINUOUS"),
+    "A-DETL": (7, "CONTINUOUS"), "A-DETL-INSL": (8, "CONTINUOUS"),
+    "C-SITE": (8, "CONTINUOUS"), "C-PROP": (1, "PHANTOM"), "C-SETB": (8, "HIDDEN"), "C-PVMT": (8, "CONTINUOUS"), "C-PVMT-STRP": (7, "CONTINUOUS"),
+    "C-WALK": (8, "CONTINUOUS"), "C-ADA": (5, "CONTINUOUS"), "C-TOPO": (3, "CONTINUOUS"), "C-UTIL": (4, "HIDDEN"), "E-SITE": (6, "CONTINUOUS"),
     "A-FLOR-CASE": (6, "CONTINUOUS"), "A-FLOR-OVHD": (9, "HIDDEN"), "A-FLOR-STRS": (3, "CONTINUOUS"),
     "A-ANNO-DIMS": (1, "CONTINUOUS"), "A-ANNO-TEXT": (7, "CONTINUOUS"), "A-ANNO-SYMB": (5, "CONTINUOUS"),
     "A-ANNO-IDEN": (5, "CONTINUOUS"), "A-GRID": (3, "CENTER"), "A-ANNO-TTLB": (7, "CONTINUOUS"),

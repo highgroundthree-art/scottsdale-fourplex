@@ -71,13 +71,13 @@ for t in ("ARCHITECT OF RECORD — TBD", "STRUCTURAL — TBD", "MEP / ENERGY —
 
 # ---- sheet index (two columns)
 IDX = [
-    ("G-001", "Cover Sheet, Project Data, Sheet Index", "DD-1"), ("G-002", "Code Analysis", "CONCEPT"), ("G-003", "General Construction Notes", "CONCEPT"),
-    ("G-004", "Accessibility Plan and Notes", "—"), ("G-005", "Rated Assemblies and Life Safety Plan", "CONCEPT"),
-    ("C-101", "Site Plan", "CONCEPT"), ("C-102", "Grading and Drainage Plan", "—"), ("C-103", "Utility Plan", "—"), ("L-101", "Landscape Plan", "—"),
+    ("G-001", "Cover Sheet, Project Data, Sheet Index", "DD-1"), ("G-002", "Code Analysis", "DD-1"), ("G-003", "General Construction Notes", "CONCEPT"),
+    ("G-004", "Accessibility Plan and Notes", "—"), ("G-005", "Rated Assemblies and Life Safety Plan", "DD-1"),
+    ("C-101", "Site Plan", "DD-1"), ("C-102", "Grading and Drainage Plan", "—"), ("C-103", "Utility Plan", "—"), ("L-101", "Landscape Plan", "—"),
     ("A-101.1", "Ground Floor Plan", "DD-1"), ("A-102.1", "Upper Floor Plan", "DD-1"), ("A-103.1", "Roof Plan", "DD-1"),
     ("A-201.1", "Exterior Elevations — South, North", "DD-1"), ("A-202.1", "Exterior Elevations — East, West", "DD-1"), ("A-301.1", "Building Sections", "DD-1"),
     ("A-302", "Wall Sections", "—"), ("A-401", "Enlarged Plans — Kitchens", "—"), ("A-402", "Enlarged Plans — Baths", "—"),
-    ("A-501", "Interior Elevations", "—"), ("A-601", "Door and Window Schedules and Types", "—"), ("A-602", "Finish Schedule", "—"), ("A-701", "Reflected Ceiling Plans", "—"),
+    ("A-501", "Interior Elevations", "—"), ("A-601", "Door and Window Schedules and Types", "DD-1"), ("A-602", "Finish Schedule", "—"), ("A-701", "Reflected Ceiling Plans", "—"),
     ("S-001", "Structural General Notes", "SE"), ("S-101", "Foundation Plan — PT Slab", "CONCEPT"), ("S-102", "Floor Framing Plan", "SE"), ("S-103", "Roof Framing Plan", "SE"),
     ("S-201", "Shear Wall Plan and Schedule", "SE"), ("S-501", "Foundation and PT Details", "CONCEPT"), ("S-502", "Framing Details", "SE"), ("S-503", "Truss Details", "DEFERRED"),
     ("X-101", "MEP Coordination, Chase and Penetration Plan", "—"),
@@ -87,7 +87,7 @@ IDX = [
     ("E-001", "Electrical Notes and Symbols", "CONCEPT"), ("E-101", "Ground Floor Electrical Plan", "CONCEPT"), ("E-102", "Upper Floor Electrical Plan", "CONCEPT"),
     ("E-201", "One-Line Diagram", "CONCEPT"), ("E-301", "Panel Schedules and Load Calculations", "CONCEPT"), ("E-401", "Site Electrical", "CONCEPT"),
     ("FP-001", "Fire Sprinkler Notes and Riser", "DEFERRED"), ("FP-101", "Fire Sprinkler Layout", "DEFERRED"), ("EN-001", "Energy Compliance", "—"),
-    ("D-001", "Envelope Details", "—"), ("D-002", "Rated Assembly and Firestop Details", "CONCEPT"), ("D-003", "Accessibility Details", "—"),
+    ("D-001", "Envelope Details", "—"), ("D-002", "Rated Assembly and Firestop Details", "DD-1"), ("D-003", "Accessibility Details", "—"),
 ]
 cols = [("SHEET", 0.75, "l"), ("TITLE", 3.35, "l"), ("STATUS", 0.85, "c")]
 half = (len(IDX) + 1) // 2

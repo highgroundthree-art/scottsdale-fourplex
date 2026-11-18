@@ -214,5 +214,50 @@
     "date": "2026-11-18",
     "status": "Design Development",
     "file": "drawings/construction-documents/A-301.1_Model1_Building_Sections.pdf"
+  },
+  {
+    "sheet": "G-002",
+    "title": "Model 1, Code Analysis (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-002_Model1_Code_Analysis.pdf"
+  },
+  {
+    "sheet": "G-005",
+    "title": "Model 1, Rated Assemblies and Life Safety Plans (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-005_Model1_Rated_Assemblies_Life_Safety.pdf"
+  },
+  {
+    "sheet": "C-101",
+    "title": "Model 1, Architectural Site Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/C-101_Model1_Site_Plan.pdf"
+  },
+  {
+    "sheet": "A-601",
+    "title": "Model 1, Door and Window Schedules and Types (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-601_Model1_Door_and_Window_Schedules.pdf"
+  },
+  {
+    "sheet": "D-002",
+    "title": "Model 1, Rated Assembly and Firestop Details (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/D-002_Model1_Rated_Assembly_Details.pdf"
   }
 ]

@@ -5,8 +5,8 @@ from cadkit import Sheet, fmt_ftin, text_w
 
 G = 3          # label grid, inches
 R = 4          # wall mask resolution, cells per inch
-WALL_T = {"EXT": 7.5, "W2": 8.5, "W1": 9.5, "P1": 4.5, "P2": 6.5}
-WALL_GRAY = {"EXT": 0.62, "W2": 0.32, "W1": 0.32, "P1": 0.70, "P2": 0.70}
+WALL_T = {"EXT": 7.5, "W2": 8.5, "W1": 9.5, "W3": 5.5, "P1": 4.5, "P2": 6.5}
+WALL_GRAY = {"EXT": 0.62, "W2": 0.32, "W1": 0.32, "W3": 0.32, "P1": 0.70, "P2": 0.70}
 
 
 class Plan:
@@ -23,7 +23,7 @@ class Plan:
                                 tag_at=tag_at, area=area, show=show, sub=sub))
 
     # ---------- walls
-    def build_walls(self, west_type="W2", overrides=None):
+    def build_walls(self, west_type="W2", overrides=None, pair_type=None):
         nx, ny = self.W // G, self.D // G
         lab = np.full((ny, nx), -1, int)
         for i, sp in enumerate(self.spaces):
@@ -41,6 +41,10 @@ class Plan:
                     return west_type
                 return "EXT"
             if unit(i) != unit(j):
+                if pair_type:
+                    pt = pair_type(unit(i), unit(j))
+                    if pt:
+                        return pt
                 return "W1"
             return "P1"
         # horizontal boundaries (between rows)
@@ -93,7 +97,7 @@ class Plan:
                 y0, y1 = a - (0 if ext else th / 2), b + (0 if ext else th / 2)
             self._paint(self.masks[t], x0, y0, x1, y1)
         # priority: rated > ext > partition
-        pri = ["W1", "W2", "EXT", "P2", "P1"]
+        pri = ["W1", "W3", "W2", "EXT", "P2", "P1"]
         taken = np.zeros((H, Wc), bool)
         for t in pri:
             self.masks[t] &= ~taken
@@ -164,7 +168,7 @@ class Plan:
         for t, m in self.masks.items():
             for (x0, y0, x1, y1) in mask_rects(m):
                 s.fillrect(x0 / R, y0 / R, (x1 - x0) / R, (y1 - y0) / R, WALL_GRAY[t],
-                           layer="A-WALL-RATE" if t in ("W1", "W2") else "A-WALL-PATT")
+                           layer="A-WALL-RATE" if t in ("W1", "W2", "W3") else "A-WALL-PATT")
         for (a, b) in mask_outline(self.union):
             s.line((a[0] / R, a[1] / R), (b[0] / R, b[1] / R), layer="A-WALL", lw="h", space="m")
 
@@ -186,6 +190,13 @@ class Plan:
                 s.line((si, a - 1.5), (si, b + 1.5), layer="A-GLAZ", lw="xf", space="m")
         for d in self.doors:
             f0, f1 = d["faces"]; (hx, hy) = d["h"]; (sx, sy) = d["st"]; W = d["W"]; sd = d["d"]
+            if d["kind"] == "overhead":
+                mid = (f0 + f1) / 2
+                if d["o"] == "h":
+                    x0, x1 = min(hx, sx), max(hx, sx)
+                    s.line((x0, mid), (x1, mid), layer="A-DOOR", lw="l", space="m")
+                    s.rect(x0, f1, x1 - x0, 7 * 12, layer="A-FLOR-OVHD", lw="f", space="m", dash="HIDDEN") if f0 == 0 else s.rect(x0, f0 - 84, x1 - x0, 84, layer="A-FLOR-OVHD", lw="f", space="m", dash="HIDDEN")
+                continue
             if d["kind"] == "bifold":
                 face = f1 if sd > 0 else f0
                 if d["o"] == "h":

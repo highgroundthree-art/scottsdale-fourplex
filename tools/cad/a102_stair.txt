@@ -1,0 +1,17 @@
+# Stair: east run DN from the landing to the mid landing; west run and mid landing below
+tread = 11 / 12
+y_top, n = 27.5, 9
+for x0 in (25.4, 30.6):
+    for i in range(n + 1):
+        yy = y_top + i * tread
+        L(x0, yy, x0 + 4.0, yy, layer="A-FLOR-STRS", lw="f")
+    L(x0, y_top, x0, y_top + n * tread, layer="A-FLOR-STRS", lw="l")
+    L(x0 + 4.0, y_top, x0 + 4.0, y_top + n * tread, layer="A-FLOR-STRS", lw="l")
+r_(25.4, 23.9, 9.2, 3.6, layer="A-FLOR-STRS", lw="f")
+L(29.75, 23.9, 29.75, 35.75, layer="A-FLOR-STRS", lw="l"); L(30.25, 23.9, 30.25, 35.75, layer="A-FLOR-STRS", lw="l")
+L(32.6, 35.4, 32.6, 28.2, layer="A-FLOR-STRS", lw="f")
+s.pline([(32.35 * F, 28.8 * F), (32.6 * F, 28.2 * F), (32.85 * F, 28.8 * F)], layer="A-FLOR-STRS", lw="f", space="m")
+T(32.6, 36.15, "DN", 0.07, layer="A-ANNO-TEXT")
+T(30.0, 25.6, "MID LANDING BELOW", 0.05, layer="A-ANNO-TEXT")
+L(25.4, 37.95, 34.6, 37.95, layer="A-FLOR-STRS", lw="l")
+r_(29.0, 16.0, 2.0, 2.5, layer="A-FLOR-OVHD", dash="HIDDEN"); T(30.0, 18.9, "HATCH BELOW", 0.045, layer="A-ANNO-TEXT")

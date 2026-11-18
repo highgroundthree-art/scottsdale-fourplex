@@ -27,15 +27,6 @@
     "file": "drawings/floor-plans/model1-ground.svg"
   },
   {
-    "sheet": "A-101.1",
-    "title": "Model 1, Ground Floor Plan (Design Development, CAD)",
-    "plan": "1",
-    "revision": "DD-1",
-    "date": "2026-11-17",
-    "status": "Design Development",
-    "file": "drawings/construction-documents/A-101.1_Model1_Ground_Floor_Plan.pdf"
-  },
-  {
     "sheet": "A-102.1",
     "title": "Model 1, Upper Floor Plan",
     "plan": "1",
@@ -124,5 +115,68 @@
     "date": "2026-11-14",
     "status": "Concept",
     "file": "drawings/floor-plans/model3-casita-loft.svg"
+  },
+  {
+    "sheet": "A-101.1",
+    "title": "Model 1, Ground Floor Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-17",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-101.1_Model1_Ground_Floor_Plan.pdf"
+  },
+  {
+    "sheet": "A-102.1",
+    "title": "Model 1, Upper Floor Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-102.1_Model1_Upper_Floor_Plan.pdf"
+  },
+  {
+    "sheet": "A-101.2",
+    "title": "Model 2, Ground Floor Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-101.2_Model2_Ground_Floor_Plan.pdf"
+  },
+  {
+    "sheet": "A-102.2",
+    "title": "Model 2, Upper Floor Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-102.2_Model2_Upper_Floor_Plan.pdf"
+  },
+  {
+    "sheet": "A-101.3",
+    "title": "Model 3, Main House Ground Floor Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-101.3_Model3_Main_Ground_Floor_Plan.pdf"
+  },
+  {
+    "sheet": "A-102.3",
+    "title": "Model 3, Main House Upper Floor Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-102.3_Model3_Main_Upper_Floor_Plan.pdf"
+  },
+  {
+    "sheet": "A-111.3",
+    "title": "Model 3, Carriage House Plans (Levels 1-3) (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-111.3_Model3_Carriage_House_Plans.pdf"
   }
 ]

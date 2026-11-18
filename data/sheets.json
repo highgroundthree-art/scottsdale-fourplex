@@ -27,6 +27,15 @@
     "file": "drawings/floor-plans/model1-ground.svg"
   },
   {
+    "sheet": "A-101.1",
+    "title": "Model 1, Ground Floor Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-17",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-101.1_Model1_Ground_Floor_Plan.pdf"
+  },
+  {
     "sheet": "A-102.1",
     "title": "Model 1, Upper Floor Plan",
     "plan": "1",

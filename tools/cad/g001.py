@@ -78,7 +78,7 @@ IDX = [
     ("A-201.1", "Exterior Elevations — South, North", "DD-1"), ("A-202.1", "Exterior Elevations — East, West", "DD-1"), ("A-301.1", "Building Sections", "DD-1"),
     ("A-302", "Wall Sections", "DD-1"), ("A-401", "Enlarged Plans — Kitchens", "—"), ("A-402", "Enlarged Plans — Baths", "—"),
     ("A-501", "Interior Elevations", "—"), ("A-601", "Door and Window Schedules and Types", "DD-1"), ("A-602", "Finish Schedule", "—"), ("A-701", "Reflected Ceiling Plans", "—"),
-    ("S-001", "Structural General Notes", "SE"), ("S-101", "Foundation Plan — PT Slab", "DD-1"), ("S-102", "Floor Framing Plan", "SE"), ("S-103", "Roof Framing Plan", "SE"),
+    ("S-001", "Structural General Notes", "SE"), ("S-101", "Foundation Plan — PT Slab", "DD-1"), ("S-102", "Floor Framing Plan", "DD-1"), ("S-103", "Roof Framing Plan", "DD-1"),
     ("S-201", "Shear Wall Plan and Schedule", "SE"), ("S-501", "Foundation and PT Details", "CONCEPT"), ("S-502", "Framing Details", "SE"), ("S-503", "Truss Details", "DEFERRED"),
     ("X-101", "MEP Coordination, Chase and Penetration Plan", "—"),
     ("M-001", "Mechanical Notes and Equipment Schedule", "MEP"), ("M-101", "Ground Floor HVAC Plan", "MEP"), ("M-102", "Upper Floor HVAC Plan", "MEP"), ("M-501", "Mechanical Details", "MEP"),

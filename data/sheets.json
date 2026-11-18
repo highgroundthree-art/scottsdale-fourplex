@@ -286,5 +286,23 @@
     "date": "2026-11-18",
     "status": "Design Development",
     "file": "drawings/construction-documents/S-101_Model1_Foundation_Plan.pdf"
+  },
+  {
+    "sheet": "S-102",
+    "title": "Model 1, Second Floor Framing Plan (design intent) (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-102_Model1_Floor_Framing_Plan.pdf"
+  },
+  {
+    "sheet": "S-103",
+    "title": "Model 1, Roof Framing Plan (design intent) (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-103_Model1_Roof_Framing_Plan.pdf"
   }
 ]

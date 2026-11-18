@@ -87,6 +87,22 @@
   footer{padding:40px 0 64px;color:var(--muted);font-size:.88rem}
   footer .rule{border-top:1px solid var(--rule);padding-top:22px}
   a:focus-visible,.btn:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+  .hero-art{margin-top:40px;background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:16px 16px 0;box-shadow:0 18px 40px rgba(0,0,0,.08)}
+  .hero-art img{display:block;width:100%;height:auto}
+  .hero-art .cap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:.8rem;color:var(--muted);padding:10px 2px 12px}
+  figure.dwg{margin:0;background:var(--card);border:1px solid var(--rule);border-radius:4px;overflow:hidden}
+  figure.dwg img{display:block;width:100%;height:auto;background:#fff;cursor:zoom-in}
+  figure.dwg figcaption{padding:10px 14px;border-top:1px solid var(--rule);font-size:.85rem;color:var(--muted)}
+  figure.dwg figcaption b{color:var(--ink)}
+  .model-h{font-size:1.25rem;margin:36px 0 14px}
+  .model-h:first-of-type{margin-top:0}
+  .plan img{cursor:zoom-in}
+  .facts{margin:10px 0 0;padding:0;list-style:none;font-size:.9rem;color:var(--muted)}
+  .facts li{padding:5px 0;border-top:1px solid var(--rule)}
+  .facts b{color:var(--ink)}
+  #lb{position:fixed;inset:0;background:rgba(10,16,20,.92);display:none;align-items:center;justify-content:center;z-index:50;padding:18px;cursor:zoom-out}
+  #lb.on{display:flex}
+  #lb img{max-width:100%;max-height:100%;background:#fff;border-radius:3px}
 </style>
 </head>
 <body>
@@ -96,7 +112,9 @@
     <a class="brand" href="#top">Scottsdale Fourplex<small>Project site</small></a>
     <nav aria-label="Primary"><ul>
       <li><a href="#overview">Overview</a></li>
-      <li><a href="#plans">Floor plans</a></li>
+      <li><a href="#plans">Models</a></li>
+      <li><a href="#site">Site plans</a></li>
+      <li><a href="#floorplans">Floor plans</a></li>
       <li><a href="#sheets">Drawing sets</a></li>
       <li><a href="#communication">Field &amp; office</a></li>
       <li><a href="#rfis">RFI log</a></li>
@@ -111,11 +129,15 @@
   <div class="wrap">
     <div class="kicker">Residential development &middot; Scottsdale, Arizona</div>
     <h1>A fourplex, documented from first sketch to final inspection.</h1>
-    <p class="lead">Three floor plans, complete working drawing sets and a single record of every question asked between the field and the office. Written for investors, developers and municipal reviewers.</p>
-    <div class="status"><span class="dot" aria-hidden="true"></span>Working draft &middot; documents in progress</div>
+    <p class="lead">Three building models, complete working drawing sets and a single record of every question asked between the field and the office. Written for investors, developers and municipal reviewers.</p>
+    <div class="status"><span class="dot" aria-hidden="true"></span>Concept design complete &middot; working drawings in progress</div>
     <div class="btns">
       <a class="btn" href="#plans">View floor plans</a>
       <a class="btn ghost" href="#sheets">Drawing index</a>
+    </div>
+    <div class="hero-art">
+      <img src="drawings/elevations/model1-santa-barbara.svg" alt="Street elevation of Model 1 in Santa Barbara style: white stucco, clay tile hipped roof and arched loggia entry">
+      <div class="cap"><span>Model 1 &middot; Stacked Big House &middot; street elevation, Santa Barbara style</span><span>Concept rendering, not for construction</span></div>
     </div>
   </div>
 </div>
@@ -124,27 +146,52 @@
   <div class="wrap">
     <div class="sec-head"><span class="num">01</span><h2>Project overview</h2></div>
     <div class="grid g3">
-      <div class="card"><h3>Program</h3><p>Four dwelling units on one site. [Unit mix, bedroom and bath counts, and square footage to be added.]</p></div>
-      <div class="card"><h3>Site</h3><p>[Address, parcel number, zoning district, lot size and setbacks to be added.]</p></div>
-      <div class="card"><h3>Schedule</h3><p>[Entitlement, permitting and construction milestones to be added.]</p></div>
+      <div class="card"><h3>Program</h3><p>Four homes in one building that reads from the street as a single fine house. Two-story and tri-level only. Homes run 1,008 to 1,728 SF, and the owner's home runs about 2,240 to 2,300 SF in Models 2 and 3. One home in every building is fully accessible.</p></div>
+      <div class="card"><h3>Site</h3><p>South Scottsdale near Old Town, inside the city's middle-housing area. No parcel is under contract yet. Each model is matched to a lot type: an 80' &times; 125' lot (Model 1), a deep, narrow lot (Model 2) or an 80' &times; 125' lot with an alley (Model 3).</p></div>
+      <div class="card"><h3>Schedule</h3><p>Concept design is drawn and coordinated: code analysis, life safety, site, floor plans, foundation, plumbing and electrical. Next come mechanical, roof and details, then the pro forma, lender review and the City of Scottsdale pre-application meeting.</p></div>
     </div>
   </div>
 </section>
 
 <section id="plans" class="alt">
   <div class="wrap">
-    <div class="sec-head"><span class="num">02</span><h2>Three floor plans</h2></div>
-    <p class="sub" style="margin-bottom:28px">Each plan will be issued with a complete working set. Drawings appear here as they are released.</p>
+    <div class="sec-head"><span class="num">02</span><h2>Three building models</h2></div>
+    <p class="sub" style="margin-bottom:28px">One design language, three buildings, each matched to the lot the market offers. Every model holds four fully independent homes and is sold whole to one owner-occupant.</p>
     <div class="grid g3" id="planGrid"></div>
+  </div>
+</section>
+
+<section id="site">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">03</span><h2>Site plans</h2></div>
+    <p class="sub" style="margin-bottom:24px">Each model on the lot it was designed for. Parking sits behind or beside the building, every site has a van-accessible stall and a step-free route to the accessible home, and front-yard stormwater retention is built as a landscaped desert garden. Tap any drawing to enlarge.</p>
+    <div class="grid g3">
+      <figure class="dwg"><img src="drawings/site-plans/site-model1.svg" alt="Model 1 site plan"><figcaption><b>Model 1</b> &middot; 80' &times; 125' lot &middot; 30% coverage &middot; 7 stalls</figcaption></figure>
+      <figure class="dwg"><img src="drawings/site-plans/site-model2.svg" alt="Model 2 site plan"><figcaption><b>Model 2</b> &middot; &asymp; 66' &times; 152' lot &middot; 28% coverage &middot; 7 stalls</figcaption></figure>
+      <figure class="dwg"><img src="drawings/site-plans/site-model3.svg" alt="Model 3 site plan"><figcaption><b>Model 3</b> &middot; 80' &times; 125' + alley &middot; 36% coverage &middot; 9 stalls</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="floorplans" class="alt">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">04</span><h2>Floor plans</h2></div>
+    <p class="sub" style="margin-bottom:28px">Every floor of every model, drawn to scale and coordinated with the foundation, plumbing, electrical and life-safety sets. Homes are color-coded: A black, B green, C red, D blue.</p>
+    <h3 class="model-h">Model 1 &middot; Stacked Big House</h3>
+    <div class="grid g2"><figure class="dwg"><img src="drawings/floor-plans/model1-ground.svg" alt="Ground floor &middot; Homes A and B"><figcaption>Ground floor &middot; Homes A and B</figcaption></figure><figure class="dwg"><img src="drawings/floor-plans/model1-upper.svg" alt="Upper floor &middot; Homes C and D"><figcaption>Upper floor &middot; Homes C and D</figcaption></figure></div>
+    <h3 class="model-h">Model 2 &middot; Townhomes + Owner Suite</h3>
+    <div class="grid g2"><figure class="dwg"><img src="drawings/floor-plans/model2-ground.svg" alt="Ground floor"><figcaption>Ground floor</figcaption></figure><figure class="dwg"><img src="drawings/floor-plans/model2-upper.svg" alt="Upper floor &middot; owner suite over Home A"><figcaption>Upper floor &middot; owner suite over Home A</figcaption></figure></div>
+    <h3 class="model-h">Model 3 &middot; Big House + Casita</h3>
+    <div class="grid g2"><figure class="dwg"><img src="drawings/floor-plans/model3-main-ground.svg" alt="Main house &middot; ground floor &middot; Homes A and B"><figcaption>Main house &middot; ground floor &middot; Homes A and B</figcaption></figure><figure class="dwg"><img src="drawings/floor-plans/model3-upper-owner.svg" alt="Main house &middot; upper floor &middot; owner Home C"><figcaption>Main house &middot; upper floor &middot; owner Home C</figcaption></figure><figure class="dwg"><img src="drawings/floor-plans/model3-carriage-ground.svg" alt="Carriage house &middot; two private 2-car garages"><figcaption>Carriage house &middot; two private 2-car garages</figcaption></figure><figure class="dwg"><img src="drawings/floor-plans/model3-casita-l2.svg" alt="Casita D &middot; level 2"><figcaption>Casita D &middot; level 2</figcaption></figure><figure class="dwg"><img src="drawings/floor-plans/model3-casita-loft.svg" alt="Casita D &middot; level 3 loft"><figcaption>Casita D &middot; level 3 loft</figcaption></figure></div>
   </div>
 </section>
 
 <section id="sheets">
   <div class="wrap">
-    <div class="sec-head"><span class="num">03</span><h2>Drawing sets</h2></div>
+    <div class="sec-head"><span class="num">05</span><h2>Drawing sets</h2></div>
     <p class="sub" style="margin-bottom:24px">The sheet index lists every drawing, its revision and its status, so reviewers always know which set is current.</p>
     <div class="tablewrap"><table aria-label="Drawing sheet index">
-      <thead><tr><th>Sheet</th><th>Title</th><th>Plan</th><th>Rev</th><th>Date</th><th>Status</th></tr></thead>
+      <thead><tr><th>Sheet</th><th>Title</th><th>Model</th><th>Rev</th><th>Date</th><th>Status</th></tr></thead>
       <tbody id="sheetBody"></tbody>
     </table><div id="sheetEmpty" class="empty" hidden></div></div>
   </div>
@@ -152,7 +199,7 @@
 
 <section id="communication" class="alt">
   <div class="wrap">
-    <div class="sec-head"><span class="num">04</span><h2>Field and office communication</h2></div>
+    <div class="sec-head"><span class="num">06</span><h2>Field and office communication</h2></div>
     <p class="sub" style="margin-bottom:26px">Questions, approvals and changes follow a written trail, so decisions made in the field are visible to the office, the lender and the building department.</p>
     <ol class="flow">
       <li><b>RFI</b><span>A request for information. The field asks a question the drawings do not answer; the office answers in writing.</span></li>
@@ -165,7 +212,7 @@
 
 <section id="rfis">
   <div class="wrap">
-    <div class="sec-head"><span class="num">05</span><h2>RFI log</h2></div>
+    <div class="sec-head"><span class="num">07</span><h2>RFI log</h2></div>
     <div class="tablewrap"><table aria-label="RFI log">
       <thead><tr><th>No.</th><th>Subject</th><th>From</th><th>To</th><th>Date</th><th>Status</th></tr></thead>
       <tbody id="rfiBody"></tbody>
@@ -175,16 +222,24 @@
 
 <section id="investment" class="alt">
   <div class="wrap">
-    <div class="sec-head"><span class="num">06</span><h2>Investment and business model</h2></div>
-    <div class="placeholder">[Business model, capital structure, projected costs and returns, and development timeline to be added from the business plan.]</div>
+    <div class="sec-head"><span class="num">08</span><h2>Investment and business model</h2></div>
+    <p class="sub" style="margin-bottom:26px;font-size:1.15rem;color:var(--ink)">We sell a business, not just real estate.</p>
+    <div class="grid g2">
+      <div class="card"><h3>One buyer, four homes</h3><p>Each building is sold whole to one owner-occupant, who lives in one home and rents the other three. The rent from the three rentals offsets the owner's mortgage, and the owner's home stays large.</p></div>
+      <div class="card"><h3>Residential financing</h3><p>Four units is where residential lending ends and commercial lending begins. Owner-occupied buyers can use FHA, VA and conventional 2&ndash;4 unit programs. Terms to be confirmed with lenders.</p></div>
+      <div class="card"><h3>A built-in buyer pool</h3><p>VA loans allow owner-occupied purchases of up to four units, typically with no down payment. Veterans and their families are a natural first market.</p></div>
+      <div class="card"><h3>Condo-ready</h3><p>Separate meters, sewer cleanouts and fire-rated separations in every home keep a condominium exit open without redesign.</p></div>
+    </div>
+    <div class="placeholder" style="margin-top:22px">Pro forma (purchase price, financing, rents and owner's net housing cost) is in progress and will be added here.</div>
   </div>
 </section>
 
 </main>
+<div id="lb" role="dialog" aria-label="Enlarged drawing"><img alt=""></div>
 
 <footer>
   <div class="wrap"><div class="rule">
-    <p><strong>Contact:</strong> [Name, company, email and phone to be added.]</p>
+    <p><strong>Contact:</strong> Charlie Ellis &middot; Mesa / Phoenix, Arizona</p>
     <p>Working draft. Drawings and figures are preliminary, are not for construction, and are subject to change and to review by the City of Scottsdale and other authorities having jurisdiction.</p>
     <p>&copy; <span id="yr">2026</span> Scottsdale Fourplex. All rights reserved.</p>
   </div></div>
@@ -195,9 +250,15 @@
   document.getElementById('yr').textContent = new Date().getFullYear();
 
   var PLANS = [
-    {k:'A', name:'Plan A', note:'[Description, unit area and bed/bath count to be added.]'},
-    {k:'B', name:'Plan B', note:'[Description, unit area and bed/bath count to be added.]'},
-    {k:'C', name:'Plan C', note:'[Description, unit area and bed/bath count to be added.]'}
+    {k:'1', name:'Model 1 &middot; Stacked Big House', cover:'drawings/site-plans/site-model1.svg',
+     note:'Two flats down and two up around a shared zero-step entry. For a typical 80\' &times; 125\' lot.',
+     facts:['<b>A</b> 2 BR / 2 BA, fully accessible, 1,250 SF','<b>B, C, D</b> 3 BR / 2 BA, 1,250 SF each','Owner picks any flat','7 parking stalls, rear lot']},
+    {k:'2', name:'Model 2 &middot; Townhomes + Owner Suite', cover:'drawings/site-plans/site-model2.svg',
+     note:'Three townhomes behind an accessible flat at the street. For a deep, narrow lot (about 66\' &times; 152\').',
+     facts:['<b>A</b> 2 BR / 2 BA flat, fully accessible, 1,008 SF','<b>B</b> owner, 5 BR / 3.5 BA, &plusmn;2,240 SF','<b>C, D</b> 3 BR / 2.5 BA townhomes, 1,232 SF','7 parking stalls']},
+    {k:'3', name:'Model 3 &middot; Big House + Casita', cover:'drawings/site-plans/site-model3.svg',
+     note:'A main house plus a tri-level casita over two private garages off the alley. For an 80\' &times; 125\' lot with an alley.',
+     facts:['<b>A, B</b> 2 BR / 2 BA flats, 1,040 SF (A accessible)','<b>C</b> owner, entire upper floor, &plusmn;2,300 SF','<b>D</b> 4 BR / 3 BA casita, 1,728 SF','9 parking stalls incl. 4 garage']}
   ];
   function esc(s){var d=document.createElement('div');d.textContent=(s==null?'':String(s));return d.innerHTML;}
   function pill(status){
@@ -223,11 +284,13 @@
     PLANS.forEach(function(p){
       var related=(sheets||[]).filter(function(s){return String(s.plan||'').toUpperCase()===p.k;});
       var first=related.filter(function(s){return /\.(png|jpe?g|svg|webp)$/i.test(s.file||'');})[0];
-      var visual = first
-        ? '<img src="'+esc(first.file)+'" alt="'+esc(p.name)+' floor plan" style="display:block;width:100%;height:auto">'
+      var src=p.cover||(first&&first.file);
+      var visual = src
+        ? '<img src="'+esc(src)+'" alt="'+p.name+' site plan" style="display:block;width:100%;height:auto;background:#f7f4ee">'
         : planSvg(p.k);
-      html+='<article class="plan">'+visual+'<div class="meta"><h3>'+p.name+'</h3><p>'+esc(p.note)+'</p>'
-          +'<p style="margin-top:10px">'+(related.length? related.length+' sheet'+(related.length>1?'s':'')+' in the index' : '<span class="pill">Not yet issued</span>')+'</p></div></article>';
+      html+='<article class="plan">'+visual+'<div class="meta"><h3>'+p.name+'</h3><p>'+p.note+'</p>'
+          +'<ul class="facts">'+(p.facts||[]).map(function(f){return '<li>'+f+'</li>';}).join('')+'</ul>'
+          +'<p style="margin-top:10px">'+(related.length? related.length+' sheet'+(related.length>1?'s':'')+' in the index' : '<span class="pill">Concept</span>')+'</p></div></article>';
     });
     host.innerHTML=html;
   }
@@ -263,6 +326,11 @@
     return fetch(url,{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();})
       .catch(function(){return [];});
   }
+  var lb=document.getElementById('lb'), lbi=lb.querySelector('img');
+  document.addEventListener('click',function(e){var t=e.target;
+    if(t.tagName==='IMG'&&t.closest('figure.dwg, .plan, .hero-art')){lbi.src=t.src;lbi.alt=t.alt;lb.classList.add('on');}
+    else if(lb.classList.contains('on')&&t.closest('#lb')){lb.classList.remove('on');}});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on');});
   renderPlans([]);
   Promise.all([load('data/sheets.json'),load('data/rfis.json')]).then(function(res){
     var sheets=Array.isArray(res[0])?res[0]:[], rfis=Array.isArray(res[1])?res[1]:[];

@@ -8,7 +8,7 @@ Project site for a fourplex development, written for investors, developers and m
 | `index.html` | The public project site |
 | `data/sheets.json` | Drawing sheet index (shown on the site) |
 | `data/rfis.json` | RFI log (shown on the site) |
-| `drawings/` | Plan sets, Plan A / B / C |
+| `drawings/` | Elevations, site plans and floor plans for Models 1, 2 and 3 |
 | `specs/` | Project manual and schedules |
 | `rfis/` | Files that support RFIs |
 | `submittals/` | Submittal packages |
@@ -17,7 +17,7 @@ Project site for a fourplex development, written for investors, developers and m
 ## Adding a drawing sheet
 Add an object to `data/sheets.json`:
 ```json
-{ "sheet": "A-101", "title": "Plan A, Floor Plan", "plan": "A", "revision": "0", "date": "2026-11-17", "status": "Draft", "file": "drawings/A-101.pdf" }
+{ "sheet": "A-101.1", "title": "Model 1, Ground Floor Plan", "plan": "1", "revision": "0", "date": "2026-11-17", "status": "Draft", "file": "drawings/floor-plans/model1-ground.svg" }
 ```
 
 ## Adding an RFI

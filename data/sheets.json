@@ -1,1 +1,119 @@
-[]
+[
+  {
+    "sheet": "A-201.1",
+    "title": "Model 1, Street Elevation (Santa Barbara)",
+    "plan": "1",
+    "revision": "Concept",
+    "date": "2026-11-12",
+    "status": "Concept",
+    "file": "drawings/elevations/model1-santa-barbara.svg"
+  },
+  {
+    "sheet": "C-101.1",
+    "title": "Model 1, Site Plan",
+    "plan": "1",
+    "revision": "2.1",
+    "date": "2026-11-14",
+    "status": "Concept",
+    "file": "drawings/site-plans/site-model1.svg"
+  },
+  {
+    "sheet": "A-101.1",
+    "title": "Model 1, Ground Floor Plan",
+    "plan": "1",
+    "revision": "1.4",
+    "date": "2026-11-14",
+    "status": "Concept",
+    "file": "drawings/floor-plans/model1-ground.svg"
+  },
+  {
+    "sheet": "A-102.1",
+    "title": "Model 1, Upper Floor Plan",
+    "plan": "1",
+    "revision": "1.4",
+    "date": "2026-11-14",
+    "status": "Concept",
+    "file": "drawings/floor-plans/model1-upper.svg"
+  },
+  {
+    "sheet": "C-101.2",
+    "title": "Model 2, Site Plan",
+    "plan": "2",
+    "revision": "2.1",
+    "date": "2026-11-14",
+    "status": "Concept",
+    "file": "drawings/site-plans/site-model2.svg"
+  },
+  {
+    "sheet": "A-101.2",
+    "title": "Model 2, Ground Floor Plan",
+    "plan": "2",
+    "revision": "1.4",
+    "date": "2026-11-14",
+    "status": "Concept",
+    "file": "drawings/floor-plans/model2-ground.svg"
+  },
+  {
+    "sheet": "A-102.2",
+    "title": "Model 2, Upper Floor Plan",
+    "plan": "2",
+    "revision": "1.4",
+    "date": "2026-11-14",
+    "status": "Concept",
+    "file": "drawings/floor-plans/model2-upper.svg"
+  },
+  {
+    "sheet": "C-101.3",
+    "title": "Model 3, Site Plan",
+    "plan": "3",
+    "revision": "2.1",
+    "date": "2026-11-14",
+    "status": "Concept",
+    "file": "drawings/site-plans/site-model3.svg"
+  },
+  {
+    "sheet": "A-101.3",
+    "title": "Model 3, Main House Ground Floor Plan",
+    "plan": "3",
+    "revision": "1.4",
+    "date": "2026-11-14",
+    "status": "Concept",
+    "file": "drawings/floor-plans/model3-main-ground.svg"
+  },
+  {
+    "sheet": "A-101.3",
+    "title": "Model 3, Carriage House Garages",
+    "plan": "3",
+    "revision": "1.4",
+    "date": "2026-11-14",
+    "status": "Concept",
+    "file": "drawings/floor-plans/model3-carriage-ground.svg"
+  },
+  {
+    "sheet": "A-102.3",
+    "title": "Model 3, Owner Upper Floor Plan",
+    "plan": "3",
+    "revision": "1.4",
+    "date": "2026-11-14",
+    "status": "Concept",
+    "file": "drawings/floor-plans/model3-upper-owner.svg"
+  },
+  {
+    "sheet": "A-102.3",
+    "title": "Model 3, Casita Level 2 Plan",
+    "plan": "3",
+    "revision": "1.4",
+    "date": "2026-11-14",
+    "status": "Concept",
+    "file": "drawings/floor-plans/model3-casita-l2.svg"
+  },
+  {
+    "sheet": "A-103.3",
+    "title": "Model 3, Casita Loft Plan",
+    "plan": "3",
+    "revision": "1.4",
+    "date": "2026-11-14",
+    "status": "Concept",
+    "file": "drawings/floor-plans/model3-casita-loft.svg"
+  }
+]

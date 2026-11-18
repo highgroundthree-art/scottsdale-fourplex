@@ -1,0 +1,79 @@
+<svg viewBox="0 0 870 470" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Arial, Helvetica, sans-serif"><rect width="870" height="470" fill="#fff"/>
+<rect x="70" y="60" width="288" height="288" fill="#777" fill-opacity=".06" stroke="#111" stroke-width="1.3"/>
+<rect x="358" y="60" width="288" height="288" fill="#777" fill-opacity=".06" stroke="#111" stroke-width="1.3"/>
+<rect x="94" y="110" width="96" height="192" fill="none" stroke="#888" stroke-width=".8" stroke-dasharray="5 3"/>
+<text x="142" y="210" font-size="6.5" fill="#888" text-anchor="middle" font-weight="normal">8' × 16' CAR</text>
+<rect x="238" y="110" width="96" height="192" fill="none" stroke="#888" stroke-width=".8" stroke-dasharray="5 3"/>
+<text x="286" y="210" font-size="6.5" fill="#888" text-anchor="middle" font-weight="normal">8' × 16' CAR</text>
+<rect x="382" y="110" width="96" height="192" fill="none" stroke="#888" stroke-width=".8" stroke-dasharray="5 3"/>
+<text x="430" y="210" font-size="6.5" fill="#888" text-anchor="middle" font-weight="normal">8' × 16' CAR</text>
+<rect x="526" y="110" width="96" height="192" fill="none" stroke="#888" stroke-width=".8" stroke-dasharray="5 3"/>
+<text x="574" y="210" font-size="6.5" fill="#888" text-anchor="middle" font-weight="normal">8' × 16' CAR</text>
+<line x1="70" y1="60" x2="646" y2="60" stroke="#111" stroke-width="4.2"/>
+<line x1="646" y1="60" x2="646" y2="348" stroke="#111" stroke-width="4.2"/>
+<line x1="70" y1="348" x2="646" y2="348" stroke="#111" stroke-width="4.2"/>
+<line x1="70" y1="60" x2="70" y2="348" stroke="#111" stroke-width="4.2"/>
+<line x1="358" y1="60" x2="358" y2="348" stroke="#c00" stroke-width="6"/>
+<line x1="358" y1="60" x2="358" y2="348" stroke="#fff" stroke-width="1.6"/>
+<line x1="88" y1="60" x2="196" y2="60" stroke="#fff" stroke-width="5"/>
+<line x1="88" y1="60" x2="196" y2="60" stroke="#111" stroke-width="1" stroke-dasharray="6 3"/>
+<text x="142" y="76" font-size="6.5" fill="#111" text-anchor="middle" font-weight="normal">9' OH DOOR</text>
+<line x1="232" y1="60" x2="340" y2="60" stroke="#fff" stroke-width="5"/>
+<line x1="232" y1="60" x2="340" y2="60" stroke="#111" stroke-width="1" stroke-dasharray="6 3"/>
+<text x="286" y="76" font-size="6.5" fill="#111" text-anchor="middle" font-weight="normal">9' OH DOOR</text>
+<line x1="376" y1="60" x2="484" y2="60" stroke="#fff" stroke-width="5"/>
+<line x1="376" y1="60" x2="484" y2="60" stroke="#111" stroke-width="1" stroke-dasharray="6 3"/>
+<text x="430" y="76" font-size="6.5" fill="#111" text-anchor="middle" font-weight="normal">9' OH DOOR</text>
+<line x1="520" y1="60" x2="628" y2="60" stroke="#fff" stroke-width="5"/>
+<line x1="520" y1="60" x2="628" y2="60" stroke="#111" stroke-width="1" stroke-dasharray="6 3"/>
+<text x="574" y="76" font-size="6.5" fill="#111" text-anchor="middle" font-weight="normal">9' OH DOOR</text>
+<line x1="300" y1="348" x2="336" y2="348" stroke="#fff" stroke-width="5"/>
+<line x1="300" y1="348" x2="300" y2="314.4" stroke="#111" stroke-width="1.1"/>
+<path d="M300,314.4 A33.6,33.6 0 0 1 336,348" fill="none" stroke="#111" stroke-width=".7"/>
+<line x1="380" y1="348" x2="416" y2="348" stroke="#fff" stroke-width="5"/>
+<line x1="416" y1="348" x2="416" y2="314.4" stroke="#111" stroke-width="1.1"/>
+<path d="M416,314.4 A33.6,33.6 0 0 0 380,348" fill="none" stroke="#111" stroke-width=".7"/>
+<rect x="656" y="108" width="44" height="192" fill="#f1f1f1" stroke="#111" stroke-width="1.3"/>
+<line x1="656" y1="120" x2="700" y2="120" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="132" x2="700" y2="132" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="144" x2="700" y2="144" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="156" x2="700" y2="156" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="168" x2="700" y2="168" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="180" x2="700" y2="180" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="192" x2="700" y2="192" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="204" x2="700" y2="204" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="216" x2="700" y2="216" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="228" x2="700" y2="228" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="240" x2="700" y2="240" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="252" x2="700" y2="252" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="264" x2="700" y2="264" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="276" x2="700" y2="276" stroke="#888" stroke-width=".6"/>
+<line x1="656" y1="288" x2="700" y2="288" stroke="#888" stroke-width=".6"/>
+<text x="678" y="204" font-size="8" fill="#777" text-anchor="middle" font-weight="bold" transform="rotate(-90 678 204)">EXT. STAIR TO UNIT D</text>
+<text x="214" y="150" font-size="10" fill="#111" text-anchor="middle" font-weight="bold">GARAGE 1</text>
+<text x="214" y="163" font-size="7.5" fill="#444" text-anchor="middle" font-weight="normal">24' × 24' · 576 SF · 2 CARS</text>
+<text x="502" y="150" font-size="10" fill="#111" text-anchor="middle" font-weight="bold">GARAGE 2</text>
+<text x="502" y="163" font-size="7.5" fill="#444" text-anchor="middle" font-weight="normal">24' × 24' · 576 SF · 2 CARS</text>
+
+<defs><pattern id="chaseh" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="4" stroke="#c00" stroke-width="1"/></pattern></defs><rect x="199.6" y="62.5" width="28.8" height="28.8" fill="url(#chaseh)" stroke="#c00" stroke-width="2"/><circle cx="214.0" cy="76.9" r="5" fill="#fff" stroke="#1e5bd8" stroke-width="1.4"/><rect x="487.6" y="62.5" width="28.8" height="28.8" fill="url(#chaseh)" stroke="#c00" stroke-width="2"/><circle cx="502.0" cy="76.9" r="5" fill="#fff" stroke="#1e5bd8" stroke-width="1.4"/>
+
+<text x="318" y="362" font-size="6.5" fill="#111" text-anchor="middle" font-weight="normal">3' DOOR</text>
+<text x="398" y="362" font-size="6.5" fill="#111" text-anchor="middle" font-weight="normal">3' DOOR</text>
+<line x1="70" y1="34" x2="358" y2="34" stroke="#111" stroke-width="0.7"/>
+<line x1="70" y1="29" x2="70" y2="39" stroke="#111" stroke-width="0.7"/>
+<line x1="358" y1="29" x2="358" y2="39" stroke="#111" stroke-width="0.7"/>
+<text x="214.0" y="30" font-size="9" fill="#111" text-anchor="middle" font-weight="normal">24'-0&quot;</text>
+<line x1="358" y1="34" x2="646" y2="34" stroke="#111" stroke-width="0.7"/>
+<line x1="358" y1="29" x2="358" y2="39" stroke="#111" stroke-width="0.7"/>
+<line x1="646" y1="29" x2="646" y2="39" stroke="#111" stroke-width="0.7"/>
+<text x="502.0" y="30" font-size="9" fill="#111" text-anchor="middle" font-weight="normal">24'-0&quot;</text>
+<line x1="34" y1="60" x2="34" y2="348" stroke="#111" stroke-width="0.7"/>
+<line x1="29" y1="60" x2="39" y2="60" stroke="#111" stroke-width="0.7"/>
+<line x1="29" y1="348" x2="39" y2="348" stroke="#111" stroke-width="0.7"/>
+<text x="30" y="204" font-size="9" fill="#111" text-anchor="middle" font-weight="normal" transform="rotate(-90 30 204)">24'-0&quot;</text>
+<text x="358" y="16" font-size="9" fill="#555" text-anchor="middle" font-weight="normal">ALLEY (NORTH) — GARAGE DOORS</text>
+<text x="358" y="384" font-size="9" fill="#555" text-anchor="middle" font-weight="normal">16' GARDEN (SOUTH)</text>
+<text x="358" y="420" font-size="10" fill="#111" text-anchor="middle" font-weight="bold">CARRIAGE HOUSE LEVEL 1 · GROUP U PRIVATE GARAGES</text>
+<text x="358" y="432" font-size="7.5" fill="#111" text-anchor="middle" font-weight="normal">EACH ≤ 1,000 SF (IBC 406.3.1) · SEE S-3 FOR BEAMS</text>
+<polygon points="754,36 745,64 754,57 763,64" fill="#111"/><text x="754" y="31" font-size="11" fill="#111" text-anchor="middle" font-weight="bold">N</text>
+</svg>

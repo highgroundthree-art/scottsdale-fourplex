@@ -95,7 +95,7 @@ y3 = SL.head(s, 15.2, 21.4, f"SHEET INDEX — MODEL 1 ({len(IDX)} SHEETS)", 10.9
 table(s, 15.2, y3 + 0.04, cols, IDX[:half], h=0.07, rowh=0.165)
 table(s, 21.1, y3 + 0.04, cols, IDX[half:], h=0.07, rowh=0.165)
 y4 = y3 - (half + 1) * 0.165 - 0.25
-for t in ["STATUS: DD-1 = drawn to construction-document standard in this set. CONCEPT = concept sheet exists (Claude artifacts), to be redrawn on this title block. SE / MEP = prepared and sealed by the engineer of record; design intent to be drafted. DEFERRED = deferred submittal by the specialty contractor. — = not started.",
+for t in ["STATUS: all 52 Model 1 sheets are drawn to DD-1. Architectural sheets are drafted for the architect of record to complete and seal. Structural (S), mechanical (M), plumbing (P), electrical (E), fire sprinkler (FP) and civil (C) sheets show DESIGN INTENT for the Arizona-registered engineers of record, who size, complete and seal them. Deferred submittals: PT slab, trusses, fire sprinklers.",
           "Models 2 and 3 follow the same sheet list with suffix .2 and .3 (floor plans already drawn: A-101.2, A-102.2, A-101.3, A-102.3, A-111.3)."]:
     y4 = para(s, 15.2, y4, t, 10.9, 0.075)
 

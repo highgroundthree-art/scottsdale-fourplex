@@ -77,7 +77,7 @@ D((52.5, 37.5), (52.5, 42.0), 1, "240", kind="bypass")
 Wn = p.window
 for side, a, b, t in [("N", 4, 10, "A"), ("N", 50, 56, "A"),
                       ("W", 21.25, 24.25, "B"), ("W", 31, 34, "B"), ("W", 42, 45, "C"),
-                      ("S", 2, 8, "A"), ("S", 14.5, 20.5, "D"), ("S", 39.5, 45.5, "D"), ("S", 52, 58, "A"),
+                      ("S", 2, 8, "A"), ("S", 14.5, 20.5, "D"), ("S", 28.5, 31.5, "F"), ("S", 39.5, 45.5, "D"), ("S", 52, 58, "A"),
                       ("E", 3.75, 9.75, "A"), ("E", 19.75, 25.75, "A"), ("E", 29.5, 35.5, "D"), ("E", 40.5, 46.5, "A")]:
     Wn(side, a, b, t)
 
@@ -232,6 +232,12 @@ for (x, y, w, h) in [(25, 0, 3, 9), (32, 0, 3, 9), (25, 20, 3, 3.5), (32, 20, 3,
 for (x, y, lab) in [(14.3, 15.0, "EP-A"), (45.7, 15.0, "EP-B")]:
     pass
 
+# meter center MC-1 (exterior, rear wall)
+r_(31.9, -1.1, 5.0, 1.1, layer="A-FLOR-FIXT", lw="l", fill=0.85)
+T(34.4, -0.55, "MC-1", 0.06, layer="A-ANNO-TEXT")
+r_(31.9, -4.1, 5.0, 3.0, layer="A-ANNO-NPLT", dash="HIDDEN")
+T(34.4, -2.6, "3'-0\" CLEAR", 0.05, layer="A-ANNO-TEXT")
+
 # ------------------------------------------------------------------ draw walls/openings
 p.draw_walls()
 p.draw_openings()
@@ -256,7 +262,7 @@ fi = lambda v: v * F
 dim_chain(s, [fi(v) for v in (0, 7, 25, 35, 53, 60)], 0, "h", 0.55)
 dim_chain(s, [fi(v) for v in (0, 25, 35, 60)], 0, "h", 0.9)
 dim_chain(s, [fi(v) for v in (0, 60)], 0, "h", 1.25)
-dim_chain(s, [fi(v) for v in (0, 5, 17.5, 25, 35, 42.5, 55, 60)], 600, "h", -0.55)
+dim_chain(s, [fi(v) for v in (0, 5, 17.5, 25, 30, 35, 42.5, 55, 60)], 600, "h", -0.55)
 dim_chain(s, [fi(v) for v in (0, 25, 35, 60)], 600, "h", -0.9)
 dim_chain(s, [fi(v) for v in (0, 60)], 600, "h", -1.25)
 dim_chain(s, [fi(v) for v in (0, 22.75, 32.5, 43.5, 50)], 0, "v", -0.55)
@@ -461,10 +467,11 @@ y2 -= 0.06
 y2 = head(X2, y2, "WINDOW SCHEDULE", 5.25)
 WCOLS = [("TYPE", 0.42, "c"), ("SIZE (W x H)", 0.98, "c"), ("OPERATION", 1.02, "l"), ("SILL A.F.F.", 0.72, "c"), ("EGRESS", 0.58, "c"), ("QTY", 0.38, "c"), ("LOCATION", 1.15, "l")]
 wrows = [
-    ("A", "6'-0\" x 4'-0\"", "HORIZ. SLIDER", "2'-6\"", "YES", "8", "BEDROOMS"),
+    ("A", "6'-0\" x 4'-0\"", "HORIZ. SLIDER", "3'-0\"", "YES", "8", "BEDROOMS"),
     ("B", "3'-0\" x 5'-0\"", "SINGLE HUNG", "2'-0\"", "BED 2", "2", "WEST (W2)"),
     ("C", "3'-0\" x 4'-0\"", "SINGLE HUNG", "3'-0\"", "\u2014", "1", "WEST (W2) BED 3"),
     ("D", "6'-0\" x 5'-0\"", "HORIZ. SLIDER", "2'-0\"", "\u2014", "3", "LIVING / DINING"),
+    ("F", "3'-0\" x 5'-0\"", "FIXED, ARCH TOP", "2'-0\"", "\u2014", "1", "LANDING (SOUTH)"),
 ]
 y2 = table(s, X2, y2 + 0.04, WCOLS, wrows, h=0.066, rowh=0.15)
 y2 -= 0.12

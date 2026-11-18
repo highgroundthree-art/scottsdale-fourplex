@@ -23,7 +23,7 @@ a=fx.index('# fire riser'); b=fx.index('# electric panels')
 fx=fx[:a]+fx[b:]
 dims=parts['dimensions (model inches)']
 dims=dims.replace('(0, 7, 25, 30, 35, 53, 60)], 0, "h", 0.55)','(0, 7, 25, 35, 53, 60)], 0, "h", 0.55)')
-dims=dims.replace('(0, 12.5, 25, 29.5, 35, 42.5, 55, 60)], 600, "h", -0.55)','(0, 5, 17.5, 25, 35, 42.5, 55, 60)], 600, "h", -0.55)')
+dims=dims.replace('(0, 12.5, 25, 29.5, 35, 42.5, 55, 60)], 600, "h", -0.55)','(0, 5, 17.5, 25, 30, 35, 42.5, 55, 60)], 600, "h", -0.55)')
 dims=dims.replace('idim_h([15, 25], 36.3)\n','idim_h([15, 25], 36.3)\nidim_h([35, 45], 36.3)\n')
 tags=parts['tags']
 tags=tags.replace('for (x, y, t) in [(3.0, 27.3, "CL"), (57.0, 27.3, "CL"), (51.25, 40.2, "CL")]:','for (x, y, t) in [(3.0, 27.3, "CL"), (57.0, 27.3, "CL"), (51.25, 40.2, "CL"), (8.75, 40.2, "CL")]:')
@@ -62,10 +62,11 @@ n=rl(n,'for t in ["TYPES:','for t in ["TYPES: C solid-core wood 1\\u00be\\", 20-
 n=rl(n,'"NOTES: 1 Type A unit','          "NOTES: 5 Self-closing, positive latching, smoke gasketing (S-label). 6 Combustion and make-up air per IFGC if gas option."]:')
 a=n.index('wrows = ['); b=n.index(']\ny2 = table(s, X2, y2 + 0.04, WCOLS, wrows')
 n=n[:a]+'''wrows = [
-    ("A", "6'-0\\" x 4'-0\\"", "HORIZ. SLIDER", "2'-6\\"", "YES", "8", "BEDROOMS"),
+    ("A", "6'-0\\" x 4'-0\\"", "HORIZ. SLIDER", "3'-0\\"", "YES", "8", "BEDROOMS"),
     ("B", "3'-0\\" x 5'-0\\"", "SINGLE HUNG", "2'-0\\"", "BED 2", "2", "WEST (W2)"),
     ("C", "3'-0\\" x 4'-0\\"", "SINGLE HUNG", "3'-0\\"", "\\u2014", "1", "WEST (W2) BED 3"),
     ("D", "6'-0\\" x 5'-0\\"", "HORIZ. SLIDER", "2'-0\\"", "\\u2014", "3", "LIVING / DINING"),
+    ("F", "3'-0\\" x 5'-0\\"", "FIXED, ARCH TOP", "2'-0\\"", "\\u2014", "1", "LANDING (SOUTH)"),
 '''+n[b:]
 n=n.replace("Egress windows: verify net clear opening with the manufacturer.","Upper-floor egress windows need 5.7 SF net clear; verify with the manufacturer. Window C is not an egress window.")
 a=n.index('dd = ['); b=n.index(']\nfor n, t in dd:')

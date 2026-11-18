@@ -1,12 +1,12 @@
 [
   {
     "sheet": "A-201.1",
-    "title": "Model 1, Street Elevation (Santa Barbara)",
+    "title": "Model 1, Exterior Elevations South and North (Design Development, CAD)",
     "plan": "1",
-    "revision": "Concept",
-    "date": "2026-11-12",
-    "status": "Concept",
-    "file": "drawings/elevations/model1-santa-barbara.svg"
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-201.1_Model1_Exterior_Elevations_South_North.pdf"
   },
   {
     "sheet": "C-101.1",
@@ -178,5 +178,41 @@
     "date": "2026-11-18",
     "status": "Design Development",
     "file": "drawings/construction-documents/A-111.3_Model3_Carriage_House_Plans.pdf"
+  },
+  {
+    "sheet": "G-001",
+    "title": "Model 1, Cover Sheet, Project Data, Sheet Index (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-001_Model1_Cover_Sheet_and_Index.pdf"
+  },
+  {
+    "sheet": "A-103.1",
+    "title": "Model 1, Roof Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-103.1_Model1_Roof_Plan.pdf"
+  },
+  {
+    "sheet": "A-202.1",
+    "title": "Model 1, Exterior Elevations East and West (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-202.1_Model1_Exterior_Elevations_East_West.pdf"
+  },
+  {
+    "sheet": "A-301.1",
+    "title": "Model 1, Building Sections (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-301.1_Model1_Building_Sections.pdf"
   }
 ]

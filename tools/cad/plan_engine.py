@@ -190,6 +190,17 @@ class Plan:
                 s.line((si, a - 1.5), (si, b + 1.5), layer="A-GLAZ", lw="xf", space="m")
         for d in self.doors:
             f0, f1 = d["faces"]; (hx, hy) = d["h"]; (sx, sy) = d["st"]; W = d["W"]; sd = d["d"]
+            if d["kind"] == "slider":
+                mid = (f0 + f1) / 2
+                if d["o"] == "h":
+                    x0, x1 = min(hx, sx), max(hx, sx); half = (x1 - x0) / 2
+                    s.rect(x0, mid - 2.25, half + 1.5, 1.5, layer="A-DOOR", lw="l", space="m")
+                    s.rect(x1 - half - 1.5, mid + 0.75, half + 1.5, 1.5, layer="A-DOOR", lw="l", space="m")
+                    s.line((x0, f0), (x1, f0), layer="A-GLAZ", lw="xf", space="m"); s.line((x0, f1), (x1, f1), layer="A-GLAZ", lw="xf", space="m")
+                    yy = f1 + 4
+                    s.line((x1 - half * 0.9, yy), (x1 - half * 0.2, yy), layer="A-DOOR", lw="xf", space="m")
+                    s.pline([(x1 - half * 0.9 + 3, yy - 1.5), (x1 - half * 0.9, yy), (x1 - half * 0.9 + 3, yy + 1.5)], layer="A-DOOR", lw="xf", space="m")
+                continue
             if d["kind"] == "overhead":
                 mid = (f0 + f1) / 2
                 if d["o"] == "h":

@@ -74,9 +74,11 @@ D((43, 23), (43, 20), 1, "127")
 D((50, 45.5), (50, 42.5), 1, "128")
 D((54.75, 25.5), (59.25, 25.5), 1, "129", kind="bypass")
 D((52.5, 37.5), (52.5, 42.0), 1, "130", kind="bypass")
+D((4, 0), (10, 0), 1, "119", kind="slider")
+D((50, 0), (56, 0), 1, "131", kind="slider")
 
 Wn = p.window
-for side, a, b, t in [("N", 4, 10, "A"), ("N", 50, 56, "A"),
+for side, a, b, t in [
                       ("W", 21.25, 24.25, "B"), ("W", 31, 34, "B"), ("W", 42, 45, "C"),
                       ("S", 9.5, 15.5, "D"), ("S", 39.5, 45.5, "D"), ("S", 52, 58, "A"),
                       ("E", 3.75, 9.75, "A"), ("E", 19.75, 25.75, "A"), ("E", 29.5, 35.5, "D"), ("E", 40.5, 46.5, "A")]:
@@ -244,6 +246,12 @@ C(33.4, 48.0, 0.35, lw="l"); T(33.4, 47.1, "FIRE", 0.045, layer="A-ANNO-TEXT"); 
 # electric panels (recessed not in W1): show on interior partitions
 for (x, y, lab) in [(14.3, 15.0, "EP-A"), (45.7, 15.0, "EP-B")]:
     pass
+
+# meter center MC-1 (exterior, rear wall)
+r_(31.9, -1.1, 5.0, 1.1, layer="A-FLOR-FIXT", lw="l", fill=0.85)
+T(34.4, -0.55, "MC-1", 0.06, layer="A-ANNO-TEXT")
+r_(31.9, -4.1, 5.0, 3.0, layer="A-ANNO-NPLT", dash="HIDDEN")
+T(34.4, -2.6, "3'-0\" CLEAR", 0.05, layer="A-ANNO-TEXT")
 
 # ------------------------------------------------------------------ draw walls/openings
 p.draw_walls()
@@ -458,6 +466,7 @@ drows = [
     ("116", "A BEDROOM 2", "3'-0\" x 8'-0\"", "D", "—", "PRIVACY", "1"),
     ("117", "A HALL BATH", "3'-0\" x 8'-0\"", "D", "—", "PRIVACY", "1"),
     ("118", "A BED 2 CLOSET", "(2) 2'-6\" x 8'-0\"", "E", "—", "PULLS", ""),
+    ("119", "A PRIMARY BED PATIO", "6'-0\" x 8'-0\"", "H", "\u2014", "LOCK / PULL", "1"),
     ("120", "UNIT B ENTRY", "3'-0\" x 8'-0\"", "C", "20 MIN S", "ENTRY / CLOSER", "5"),
     ("121", "B PRIMARY BEDROOM", "3'-0\" x 8'-0\"", "D", "—", "PRIVACY", ""),
     ("122", "B PRIMARY BATH", "3'-0\" x 8'-0\"", "D", "—", "PRIVACY", ""),
@@ -469,17 +478,18 @@ drows = [
     ("128", "B BEDROOM 3", "3'-0\" x 8'-0\"", "D", "—", "PRIVACY", ""),
     ("129", "B BED 2 CLOSET", "(2) 2'-6\" x 8'-0\"", "E", "—", "PULLS", ""),
     ("130", "B BED 3 CLOSET", "(2) 2'-6\" x 8'-0\"", "E", "—", "PULLS", ""),
+    ("131", "B PRIMARY BED PATIO", "6'-0\" x 8'-0\"", "H", "\u2014", "LOCK / PULL", ""),
 ]
 y2 = table(s, X2, y2 + 0.04, DCOLS, drows, h=0.066, rowh=0.15)
 y2 -= 0.12
-for t in ["TYPES: A insulated fiberglass, exterior, 1¾\"; B hollow metal; C solid-core wood 1¾\", 20-min label; D solid-core wood flush, 1¾\"; E bypass, solid-core; F bi-fold, solid-core.",
+for t in ["TYPES: A insulated fiberglass, exterior, 1¾\"; B hollow metal; C solid-core wood 1¾\", 20-min label; D solid-core wood flush, 1¾\"; E bypass, solid-core; F bi-fold, solid-core; H insulated sliding glass door, tempered low-E, U 0.40 max.",
           "NOTES: 1 Type A unit / accessible route: lever hardware, 32\" clear, max. 5 lbf opening force, ½\" max. threshold. 2 Zero-step entry. 3 Sign \"FIRE RISER\"; access per Scottsdale Fire. 4 Exterior, swings out. 5 Self-closing, smoke gasketing. 6 Combustion/make-up air per IFGC if gas option."]:
     y2 = para(s, X2, y2, t, 5.25, 0.068)
 y2 -= 0.06
 y2 = head(X2, y2, "WINDOW SCHEDULE", 5.25)
 WCOLS = [("TYPE", 0.42, "c"), ("SIZE (W x H)", 0.98, "c"), ("OPERATION", 1.02, "l"), ("SILL A.F.F.", 0.72, "c"), ("EGRESS", 0.58, "c"), ("QTY", 0.38, "c"), ("LOCATION", 1.15, "l")]
 wrows = [
-    ("A", "6'-0\" x 4'-0\"", "HORIZ. SLIDER", "2'-6\"", "YES", "6", "BEDROOMS"),
+    ("A", "6'-0\" x 4'-0\"", "HORIZ. SLIDER", "3'-0\"", "YES", "4", "BEDROOMS"),
     ("B", "3'-0\" x 5'-0\"", "SINGLE HUNG", "2'-0\"", "BED 2", "2", "WEST (W2)"),
     ("C", "3'-0\" x 4'-0\"", "SINGLE HUNG", "3'-0\"", "—", "1", "WEST (W2)"),
     ("D", "6'-0\" x 5'-0\"", "HORIZ. SLIDER", "2'-0\"", "—", "3", "LIVING / DINING"),
@@ -493,8 +503,8 @@ y2 = head(X2, y2, "DESIGN-DEVELOPMENT COORDINATION (CHANGES FROM CONCEPT REV 1.4
 dd = [
     ("a.", "Bedroom doors 111 and 121 now swing into the bedrooms, not into the 4'-0\" hall."),
     ("b.", "Stair: 4'-0\" landing across both runs at the north end; chases CH at the landing shortened to 3'-6\"."),
-    ("c.", "House storage 102 gets exterior door 103 on the rear wall; the old door under the landing had no headroom and is deleted."),
-    ("d.", "OPEN — Site plan shows rear patios but no door from Units A/B. Confirm converting window A at each primary bedroom to a 6'-0\" sliding door."),
+    ("c.", "LOCKED 2026-11-18 \u2014 Meter center MC-1 on the rear wall beside house-storage door 103, 3'-0\" working space in front; feeders enter chase CH2. Keep downspouts and gas meters 3'-0\" clear (IPC 1106.5.1, P-102.1)."),
+    ("d.", "LOCKED 2026-11-18 \u2014 Primary bedrooms A107/B107 open to the rear patios through 6'-0\" sliding doors 119/131 (replace window A). Sliders also serve as the bedroom escape openings."),
 ]
 for n, t in dd:
     y2 = para(s, X2, y2, t, 5.25, 0.068, num=n)

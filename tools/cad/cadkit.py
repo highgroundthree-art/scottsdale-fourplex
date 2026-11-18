@@ -18,6 +18,7 @@ LAYERS = {  # name: (aci color, linetype)
     "A-ANNO-DIMS": (1, "CONTINUOUS"), "A-ANNO-TEXT": (7, "CONTINUOUS"), "A-ANNO-SYMB": (5, "CONTINUOUS"),
     "A-ANNO-IDEN": (5, "CONTINUOUS"), "A-GRID": (3, "CENTER"), "A-ANNO-TTLB": (7, "CONTINUOUS"),
     "A-AREA-IDEN": (7, "CONTINUOUS"), "A-ANNO-NPLT": (8, "CONTINUOUS"),
+    "A-ELEV": (7, "CONTINUOUS"), "A-SECT": (7, "CONTINUOUS"), "A-ROOF": (7, "CONTINUOUS"),
 }
 DASH = {"HIDDEN": [4, 2.5], "CENTER": [14, 3, 3, 3], "PHANTOM": [10, 2, 2, 2, 2, 2], "CONTINUOUS": None}
 

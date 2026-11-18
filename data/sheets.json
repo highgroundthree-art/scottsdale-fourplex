@@ -109,12 +109,12 @@
   },
   {
     "sheet": "A-103.3",
-    "title": "Model 3, Casita Loft Plan",
+    "title": "Model 3, Roof Plan (Design Development, CAD)",
     "plan": "3",
-    "revision": "1.4",
-    "date": "2026-11-14",
-    "status": "Concept",
-    "file": "drawings/floor-plans/model3-casita-loft.svg"
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-103.3_Model3_Roof_Plan.pdf"
   },
   {
     "sheet": "A-101.1",
@@ -154,7 +154,7 @@
   },
   {
     "sheet": "A-101.3",
-    "title": "Model 3, Main House Ground Floor Plan (Design Development, CAD)",
+    "title": "Model 3, Main Ground Floor Plan (Design Development, CAD)",
     "plan": "3",
     "revision": "DD-1",
     "date": "2026-11-18",
@@ -163,7 +163,7 @@
   },
   {
     "sheet": "A-102.3",
-    "title": "Model 3, Main House Upper Floor Plan (Design Development, CAD)",
+    "title": "Model 3, Main Upper Floor Plan (Design Development, CAD)",
     "plan": "3",
     "revision": "DD-1",
     "date": "2026-11-18",
@@ -172,7 +172,7 @@
   },
   {
     "sheet": "A-111.3",
-    "title": "Model 3, Carriage House Plans (Levels 1-3) (Design Development, CAD)",
+    "title": "Model 3, Carriage House Plans (Design Development, CAD)",
     "plan": "3",
     "revision": "DD-1",
     "date": "2026-11-18",
@@ -1069,5 +1069,446 @@
     "date": "2026-11-18",
     "status": "Design Development",
     "file": "drawings/construction-documents/D-003_Model2_Accessibility_Details.pdf"
+  },
+  {
+    "sheet": "G-001",
+    "title": "Model 3, Cover Sheet and Index (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-001_Model3_Cover_Sheet_and_Index.pdf"
+  },
+  {
+    "sheet": "G-002",
+    "title": "Model 3, Code Analysis (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-002_Model3_Code_Analysis.pdf"
+  },
+  {
+    "sheet": "G-003",
+    "title": "Model 3, General Notes (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-003_Model3_General_Notes.pdf"
+  },
+  {
+    "sheet": "G-004",
+    "title": "Model 3, Accessibility Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-004_Model3_Accessibility_Plan.pdf"
+  },
+  {
+    "sheet": "G-005",
+    "title": "Model 3, Rated Assemblies Life Safety (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-005_Model3_Rated_Assemblies_Life_Safety.pdf"
+  },
+  {
+    "sheet": "C-101",
+    "title": "Model 3, Site Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/C-101_Model3_Site_Plan.pdf"
+  },
+  {
+    "sheet": "C-102",
+    "title": "Model 3, Grading and Drainage Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/C-102_Model3_Grading_and_Drainage_Plan.pdf"
+  },
+  {
+    "sheet": "C-103",
+    "title": "Model 3, Utility Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/C-103_Model3_Utility_Plan.pdf"
+  },
+  {
+    "sheet": "L-101",
+    "title": "Model 3, Landscape Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/L-101_Model3_Landscape_Plan.pdf"
+  },
+  {
+    "sheet": "A-201.3",
+    "title": "Model 3, Exterior Elevations Long Faces (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-201.3_Model3_Exterior_Elevations_Long_Faces.pdf"
+  },
+  {
+    "sheet": "A-202.3",
+    "title": "Model 3, Exterior Elevations End Faces (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-202.3_Model3_Exterior_Elevations_End_Faces.pdf"
+  },
+  {
+    "sheet": "A-301.3",
+    "title": "Model 3, Building Sections (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-301.3_Model3_Building_Sections.pdf"
+  },
+  {
+    "sheet": "A-302",
+    "title": "Model 3, Wall Sections (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-302_Model3_Wall_Sections.pdf"
+  },
+  {
+    "sheet": "A-401",
+    "title": "Model 3, Enlarged Kitchen Plans (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-401_Model3_Enlarged_Kitchen_Plans.pdf"
+  },
+  {
+    "sheet": "A-402",
+    "title": "Model 3, Enlarged Bath Plans (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-402_Model3_Enlarged_Bath_Plans.pdf"
+  },
+  {
+    "sheet": "A-501",
+    "title": "Model 3, Interior Elevations (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-501_Model3_Interior_Elevations.pdf"
+  },
+  {
+    "sheet": "A-601",
+    "title": "Model 3, Door and Window Schedules (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-601_Model3_Door_and_Window_Schedules.pdf"
+  },
+  {
+    "sheet": "A-602",
+    "title": "Model 3, Finish Schedule (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-602_Model3_Finish_Schedule.pdf"
+  },
+  {
+    "sheet": "A-701",
+    "title": "Model 3, Reflected Ceiling Plans (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-701_Model3_Reflected_Ceiling_Plans.pdf"
+  },
+  {
+    "sheet": "S-001",
+    "title": "Model 3, Structural General Notes (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-001_Model3_Structural_General_Notes.pdf"
+  },
+  {
+    "sheet": "S-101",
+    "title": "Model 3, Foundation Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-101_Model3_Foundation_Plan.pdf"
+  },
+  {
+    "sheet": "S-102",
+    "title": "Model 3, Floor Framing Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-102_Model3_Floor_Framing_Plan.pdf"
+  },
+  {
+    "sheet": "S-103",
+    "title": "Model 3, Roof Framing Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-103_Model3_Roof_Framing_Plan.pdf"
+  },
+  {
+    "sheet": "S-201",
+    "title": "Model 3, Shear Wall Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-201_Model3_Shear_Wall_Plan.pdf"
+  },
+  {
+    "sheet": "S-501",
+    "title": "Model 3, Foundation Details (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-501_Model3_Foundation_Details.pdf"
+  },
+  {
+    "sheet": "S-502",
+    "title": "Model 3, Framing Details (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-502_Model3_Framing_Details.pdf"
+  },
+  {
+    "sheet": "S-503",
+    "title": "Model 3, Truss Details (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-503_Model3_Truss_Details.pdf"
+  },
+  {
+    "sheet": "X-101",
+    "title": "Model 3, MEP Coordination Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/X-101_Model3_MEP_Coordination_Plan.pdf"
+  },
+  {
+    "sheet": "M-001",
+    "title": "Model 3, Mechanical Notes Schedules (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/M-001_Model3_Mechanical_Notes_Schedules.pdf"
+  },
+  {
+    "sheet": "M-101",
+    "title": "Model 3, Ground Floor HVAC Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/M-101_Model3_Ground_Floor_HVAC_Plan.pdf"
+  },
+  {
+    "sheet": "M-102",
+    "title": "Model 3, Upper Floor HVAC Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/M-102_Model3_Upper_Floor_HVAC_Plan.pdf"
+  },
+  {
+    "sheet": "M-501",
+    "title": "Model 3, Mechanical Details (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/M-501_Model3_Mechanical_Details.pdf"
+  },
+  {
+    "sheet": "P-001",
+    "title": "Model 3, Plumbing Notes Schedules (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-001_Model3_Plumbing_Notes_Schedules.pdf"
+  },
+  {
+    "sheet": "P-101.3",
+    "title": "Model 3, Waste and Vent Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-101.3_Model3_Waste_and_Vent_Plan.pdf"
+  },
+  {
+    "sheet": "P-102.3",
+    "title": "Model 3, Domestic Water Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-102.3_Model3_Domestic_Water_Plan.pdf"
+  },
+  {
+    "sheet": "P-201",
+    "title": "Model 3, DWV and Water Riser Diagrams (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-201_Model3_DWV_and_Water_Riser_Diagrams.pdf"
+  },
+  {
+    "sheet": "P-202",
+    "title": "Model 3, Gas Riser Alternate (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-202_Model3_Gas_Riser_Alternate.pdf"
+  },
+  {
+    "sheet": "E-001",
+    "title": "Model 3, Electrical Notes Symbols (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-001_Model3_Electrical_Notes_Symbols.pdf"
+  },
+  {
+    "sheet": "E-101",
+    "title": "Model 3, Ground Floor Electrical Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-101_Model3_Ground_Floor_Electrical_Plan.pdf"
+  },
+  {
+    "sheet": "E-102",
+    "title": "Model 3, Upper Floor Electrical Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-102_Model3_Upper_Floor_Electrical_Plan.pdf"
+  },
+  {
+    "sheet": "E-201",
+    "title": "Model 3, One Line Diagram (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-201_Model3_One_Line_Diagram.pdf"
+  },
+  {
+    "sheet": "E-301",
+    "title": "Model 3, Panel Schedules Load Calcs (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-301_Model3_Panel_Schedules_Load_Calcs.pdf"
+  },
+  {
+    "sheet": "E-401",
+    "title": "Model 3, Site Electrical Plan (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-401_Model3_Site_Electrical_Plan.pdf"
+  },
+  {
+    "sheet": "FP-001",
+    "title": "Model 3, Fire Sprinkler Notes (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/FP-001_Model3_Fire_Sprinkler_Notes.pdf"
+  },
+  {
+    "sheet": "FP-101",
+    "title": "Model 3, Fire Sprinkler Layout (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/FP-101_Model3_Fire_Sprinkler_Layout.pdf"
+  },
+  {
+    "sheet": "EN-001",
+    "title": "Model 3, Energy Compliance (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/EN-001_Model3_Energy_Compliance.pdf"
+  },
+  {
+    "sheet": "D-001",
+    "title": "Model 3, Envelope Details (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/D-001_Model3_Envelope_Details.pdf"
+  },
+  {
+    "sheet": "D-002",
+    "title": "Model 3, Rated Assembly Details (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/D-002_Model3_Rated_Assembly_Details.pdf"
+  },
+  {
+    "sheet": "D-003",
+    "title": "Model 3, Accessibility Details (Design Development, CAD)",
+    "plan": "3",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/D-003_Model3_Accessibility_Details.pdf"
   }
 ]

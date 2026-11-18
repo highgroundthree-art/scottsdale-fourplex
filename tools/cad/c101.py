@@ -83,10 +83,11 @@ T(BX + 30, 118, "ENTRY WALK", 0.05, rot=90)
 # west accessible walk from motor court to rear patios + side
 R(1.5, 44, 4.5, 61, "C-WALK", "l", fill=0.95); T(3.7, 74, "5'-0\" WALK", 0.05, rot=90)
 # rear patios
-for x in (BX + 3, BX + 41):
-    R(x, BY - 10, 16, 10, "C-WALK", "l", fill=0.97)
-    T(x + 8, BY - 6, "PATIO", 0.065, font="Helvetica-Bold"); T(x + 8, BY - 4.4, "(SLIDER)", 0.05)
-L((BX + 3, BY - 10), (BX + 19, BY - 10), "C-WALK", "f")
+for (x, w) in ((BX + 3, 15), (BX + 43, 14)):
+    R(x, BY - 10, w, 10, "C-WALK", "l", fill=0.97)
+    T(x + w / 2, BY - 6, "PATIO", 0.065, font="Helvetica-Bold"); T(x + w / 2, BY - 4.4, "(SLIDER)", 0.05)
+for (cx, t) in ((20.5, "CU-A"), (23.3, "CU-C"), (38.5, "CU-B"), (41.3, "CU-D")):
+    R(BX + cx - 1.3, BY - 4.3, 2.6, 2.6, "M-EQPM", "l", fill=0.9); T(BX + cx, BY - 2.8, t, 0.04)
 # accessible route
 s.pline([M(13, 18.5), M(13, 44), M(13, 47), M(BX + 9, BY - 10)], layer="C-ADA", lw="m", space="m", dash=[4, 1.5, 1, 1.5])
 s.pline([M(BX + 30, 125), M(BX + 30, BY + 50)], layer="C-ADA", lw="m", space="m", dash=[4, 1.5, 1, 1.5])
@@ -96,9 +97,9 @@ for (x, y, w, h) in ((9, 108, 18, 15), (48, 110, 18, 13)):
     s.rect((x + 2) * F, (y + 2) * F, (w - 4) * F, (h - 4) * F, layer="C-TOPO", lw="f", space="m", dash=[6, 3])
     T(x + w / 2, y + h / 2, "RETENTION", 0.06, font="Helvetica-Bold"); T(x + w / 2, y + h / 2 + 1.5, "BASIN, 1' DEEP", 0.05)
 # utilities
-s.rect((BX + 25.2) * F, (BY - 1.1) * F, 5.0 * F, 1.1 * F, layer="E-SITE", lw="m", space="m", fill=0.2)
-T(BX + 27.7, BY - 2.6, "MC-1", 0.06, font="Helvetica-Bold")
-L((BX + 27.7, BY - 1.1), (BX + 27.7, 46.5), "E-SITE", "f", "HIDDEN"); L((BX + 27.7, 46.5), (78.5, 46.5), "E-SITE", "f", "HIDDEN"); L((78.5, 46.5), (78.5, 125.5), "E-SITE", "f", "HIDDEN")
+s.rect((BX + 31.9) * F, (BY - 1.1) * F, 5.0 * F, 1.1 * F, layer="E-SITE", lw="m", space="m", fill=0.2)
+T(BX + 34.4, BY - 2.6, "MC-1", 0.06, font="Helvetica-Bold")
+L((BX + 34.4, BY - 1.1), (BX + 34.4, 46.5), "E-SITE", "f", "HIDDEN"); L((BX + 34.4, 46.5), (78.5, 46.5), "E-SITE", "f", "HIDDEN"); L((78.5, 46.5), (78.5, 125.5), "E-SITE", "f", "HIDDEN")
 T(70, 48, "E — UG ELECTRIC TO PAD-MOUNT / POLE (APS, VERIFY)", 0.05)
 for (x, lab) in ((BX + 26, "W"), (BX + 34, "SS"), (BX + 40, "G")):
     L((x, BY + 50), (x, 131), "C-UTIL", "f", "HIDDEN")

@@ -104,8 +104,9 @@ def mech_sheet(lvl, sheet, file):
     save(s, sheet, file, f"{lv} FLOOR\nHVAC PLAN")
 
 
-mech_sheet(1, "M-101", "Model1_Ground_Floor_HVAC_Plan")
-mech_sheet(2, "M-102", "Model1_Upper_Floor_HVAC_Plan")
+if __name__ == "__main__":
+    mech_sheet(1, "M-101", "Model1_Ground_Floor_HVAC_Plan")
+    mech_sheet(2, "M-102", "Model1_Upper_Floor_HVAC_Plan")
 
 
 # ============================================================ ELECTRICAL
@@ -226,5 +227,6 @@ def elec_sheet(lvl, sheet, file):
     save(s, sheet, file, f"{lv} FLOOR\nELECTRICAL PLAN")
 
 
-elec_sheet(1, "E-101", "Model1_Ground_Floor_Electrical_Plan")
-elec_sheet(2, "E-102", "Model1_Upper_Floor_Electrical_Plan")
+if __name__ == "__main__":
+    elec_sheet(1, "E-101", "Model1_Ground_Floor_Electrical_Plan")
+    elec_sheet(2, "E-102", "Model1_Upper_Floor_Electrical_Plan")

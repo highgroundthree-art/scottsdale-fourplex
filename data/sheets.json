@@ -403,5 +403,221 @@
     "date": "2026-11-18",
     "status": "Design Development",
     "file": "drawings/construction-documents/FP-101_Model1_Fire_Sprinkler_Layout.pdf"
+  },
+  {
+    "sheet": "G-003",
+    "title": "Model 1, General Construction Notes (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-003_Model1_General_Notes.pdf"
+  },
+  {
+    "sheet": "C-102",
+    "title": "Model 1, Grading and Drainage Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/C-102_Model1_Grading_and_Drainage_Plan.pdf"
+  },
+  {
+    "sheet": "C-103",
+    "title": "Model 1, Utility Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/C-103_Model1_Utility_Plan.pdf"
+  },
+  {
+    "sheet": "L-101",
+    "title": "Model 1, Landscape Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/L-101_Model1_Landscape_Plan.pdf"
+  },
+  {
+    "sheet": "A-401",
+    "title": "Model 1, Enlarged Plans \u2014 Kitchens (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-401_Model1_Enlarged_Kitchen_Plans.pdf"
+  },
+  {
+    "sheet": "A-402",
+    "title": "Model 1, Enlarged Plans \u2014 Baths (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-402_Model1_Enlarged_Bath_Plans.pdf"
+  },
+  {
+    "sheet": "A-501",
+    "title": "Model 1, Interior Elevations (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-501_Model1_Interior_Elevations.pdf"
+  },
+  {
+    "sheet": "A-602",
+    "title": "Model 1, Finish Schedule (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-602_Model1_Finish_Schedule.pdf"
+  },
+  {
+    "sheet": "S-001",
+    "title": "Model 1, Structural General Notes (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-001_Model1_Structural_General_Notes.pdf"
+  },
+  {
+    "sheet": "S-501",
+    "title": "Model 1, Foundation and PT Details (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-501_Model1_Foundation_Details.pdf"
+  },
+  {
+    "sheet": "S-502",
+    "title": "Model 1, Framing Details (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-502_Model1_Framing_Details.pdf"
+  },
+  {
+    "sheet": "S-503",
+    "title": "Model 1, Truss Details (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-503_Model1_Truss_Details.pdf"
+  },
+  {
+    "sheet": "M-001",
+    "title": "Model 1, Mechanical Notes and Equipment Schedule (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/M-001_Model1_Mechanical_Notes_Schedules.pdf"
+  },
+  {
+    "sheet": "M-501",
+    "title": "Model 1, Mechanical Details (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/M-501_Model1_Mechanical_Details.pdf"
+  },
+  {
+    "sheet": "P-001",
+    "title": "Model 1, Plumbing Notes, Legend, Schedules (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-001_Model1_Plumbing_Notes_Schedules.pdf"
+  },
+  {
+    "sheet": "P-201",
+    "title": "Model 1, DWV and Water Riser Diagrams (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-201_Model1_DWV_and_Water_Riser_Diagrams.pdf"
+  },
+  {
+    "sheet": "P-202",
+    "title": "Model 1, Gas Riser Diagram (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-202_Model1_Gas_Riser_Alternate.pdf"
+  },
+  {
+    "sheet": "E-001",
+    "title": "Model 1, Electrical Notes and Symbols (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-001_Model1_Electrical_Notes_Symbols.pdf"
+  },
+  {
+    "sheet": "E-201",
+    "title": "Model 1, One-Line Diagram (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-201_Model1_One_Line_Diagram.pdf"
+  },
+  {
+    "sheet": "E-301",
+    "title": "Model 1, Panel Schedules and Load Calculations (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-301_Model1_Panel_Schedules_Load_Calcs.pdf"
+  },
+  {
+    "sheet": "E-401",
+    "title": "Model 1, Site Electrical (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-401_Model1_Site_Electrical_Plan.pdf"
+  },
+  {
+    "sheet": "FP-001",
+    "title": "Model 1, Fire Sprinkler Notes and Riser (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/FP-001_Model1_Fire_Sprinkler_Notes.pdf"
+  },
+  {
+    "sheet": "EN-001",
+    "title": "Model 1, Energy Compliance (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/EN-001_Model1_Energy_Compliance.pdf"
+  },
+  {
+    "sheet": "D-003",
+    "title": "Model 1, Accessibility Details (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/D-003_Model1_Accessibility_Details.pdf"
   }
 ]

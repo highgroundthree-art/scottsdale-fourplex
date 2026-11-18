@@ -71,23 +71,23 @@ for t in ("ARCHITECT OF RECORD — TBD", "STRUCTURAL — TBD", "MEP / ENERGY —
 
 # ---- sheet index (two columns)
 IDX = [
-    ("G-001", "Cover Sheet, Project Data, Sheet Index", "DD-1"), ("G-002", "Code Analysis", "DD-1"), ("G-003", "General Construction Notes", "CONCEPT"),
+    ("G-001", "Cover Sheet, Project Data, Sheet Index", "DD-1"), ("G-002", "Code Analysis", "DD-1"), ("G-003", "General Construction Notes", "DD-1"),
     ("G-004", "Accessibility Plan and Notes", "DD-1"), ("G-005", "Rated Assemblies and Life Safety Plan", "DD-1"),
-    ("C-101", "Site Plan", "DD-1"), ("C-102", "Grading and Drainage Plan", "—"), ("C-103", "Utility Plan", "—"), ("L-101", "Landscape Plan", "—"),
+    ("C-101", "Site Plan", "DD-1"), ("C-102", "Grading and Drainage Plan", "DD-1"), ("C-103", "Utility Plan", "DD-1"), ("L-101", "Landscape Plan", "DD-1"),
     ("A-101.1", "Ground Floor Plan", "DD-1"), ("A-102.1", "Upper Floor Plan", "DD-1"), ("A-103.1", "Roof Plan", "DD-1"),
     ("A-201.1", "Exterior Elevations — South, North", "DD-1"), ("A-202.1", "Exterior Elevations — East, West", "DD-1"), ("A-301.1", "Building Sections", "DD-1"),
-    ("A-302", "Wall Sections", "DD-1"), ("A-401", "Enlarged Plans — Kitchens", "—"), ("A-402", "Enlarged Plans — Baths", "—"),
-    ("A-501", "Interior Elevations", "—"), ("A-601", "Door and Window Schedules and Types", "DD-1"), ("A-602", "Finish Schedule", "—"), ("A-701", "Reflected Ceiling Plans", "DD-1"),
-    ("S-001", "Structural General Notes", "SE"), ("S-101", "Foundation Plan — PT Slab", "DD-1"), ("S-102", "Floor Framing Plan", "DD-1"), ("S-103", "Roof Framing Plan", "DD-1"),
-    ("S-201", "Shear Wall Plan and Schedule", "DD-1"), ("S-501", "Foundation and PT Details", "CONCEPT"), ("S-502", "Framing Details", "SE"), ("S-503", "Truss Details", "DEFERRED"),
+    ("A-302", "Wall Sections", "DD-1"), ("A-401", "Enlarged Plans — Kitchens", "DD-1"), ("A-402", "Enlarged Plans — Baths", "DD-1"),
+    ("A-501", "Interior Elevations", "DD-1"), ("A-601", "Door and Window Schedules and Types", "DD-1"), ("A-602", "Finish Schedule", "DD-1"), ("A-701", "Reflected Ceiling Plans", "DD-1"),
+    ("S-001", "Structural General Notes", "DD-1"), ("S-101", "Foundation Plan — PT Slab", "DD-1"), ("S-102", "Floor Framing Plan", "DD-1"), ("S-103", "Roof Framing Plan", "DD-1"),
+    ("S-201", "Shear Wall Plan and Schedule", "DD-1"), ("S-501", "Foundation and PT Details", "DD-1"), ("S-502", "Framing Details", "DD-1"), ("S-503", "Truss Details", "DD-1"),
     ("X-101", "MEP Coordination, Chase and Penetration Plan", "DD-1"),
-    ("M-001", "Mechanical Notes and Equipment Schedule", "MEP"), ("M-101", "Ground Floor HVAC Plan", "DD-1"), ("M-102", "Upper Floor HVAC Plan", "DD-1"), ("M-501", "Mechanical Details", "MEP"),
-    ("P-001", "Plumbing Notes, Legend, Schedules", "CONCEPT"), ("P-101.1", "Waste and Vent Plan", "DD-1"), ("P-102.1", "Water and Gas Plan", "DD-1"),
-    ("P-201", "DWV and Water Riser Diagrams", "CONCEPT"), ("P-202", "Gas Riser Diagram", "CONCEPT"),
-    ("E-001", "Electrical Notes and Symbols", "CONCEPT"), ("E-101", "Ground Floor Electrical Plan", "DD-1"), ("E-102", "Upper Floor Electrical Plan", "DD-1"),
-    ("E-201", "One-Line Diagram", "CONCEPT"), ("E-301", "Panel Schedules and Load Calculations", "CONCEPT"), ("E-401", "Site Electrical", "CONCEPT"),
-    ("FP-001", "Fire Sprinkler Notes and Riser", "DEFERRED"), ("FP-101", "Fire Sprinkler Layout", "DD-1"), ("EN-001", "Energy Compliance", "—"),
-    ("D-001", "Envelope Details", "DD-1"), ("D-002", "Rated Assembly and Firestop Details", "DD-1"), ("D-003", "Accessibility Details", "—"),
+    ("M-001", "Mechanical Notes and Equipment Schedule", "DD-1"), ("M-101", "Ground Floor HVAC Plan", "DD-1"), ("M-102", "Upper Floor HVAC Plan", "DD-1"), ("M-501", "Mechanical Details", "DD-1"),
+    ("P-001", "Plumbing Notes, Legend, Schedules", "DD-1"), ("P-101.1", "Waste and Vent Plan", "DD-1"), ("P-102.1", "Water and Gas Plan", "DD-1"),
+    ("P-201", "DWV and Water Riser Diagrams", "DD-1"), ("P-202", "Gas Riser Diagram", "DD-1"),
+    ("E-001", "Electrical Notes and Symbols", "DD-1"), ("E-101", "Ground Floor Electrical Plan", "DD-1"), ("E-102", "Upper Floor Electrical Plan", "DD-1"),
+    ("E-201", "One-Line Diagram", "DD-1"), ("E-301", "Panel Schedules and Load Calculations", "DD-1"), ("E-401", "Site Electrical", "DD-1"),
+    ("FP-001", "Fire Sprinkler Notes and Riser", "DD-1"), ("FP-101", "Fire Sprinkler Layout", "DD-1"), ("EN-001", "Energy Compliance", "DD-1"),
+    ("D-001", "Envelope Details", "DD-1"), ("D-002", "Rated Assembly and Firestop Details", "DD-1"), ("D-003", "Accessibility Details", "DD-1"),
 ]
 cols = [("SHEET", 0.75, "l"), ("TITLE", 3.35, "l"), ("STATUS", 0.85, "c")]
 half = (len(IDX) + 1) // 2

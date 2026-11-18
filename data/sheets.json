@@ -1,7 +1,7 @@
 [
   {
     "sheet": "A-201.1",
-    "title": "Model 1, Exterior Elevations South and North (Design Development, CAD)",
+    "title": "Model 1, Exterior Elevations \u2014 South, North (Design Development, CAD)",
     "plan": "1",
     "revision": "DD-1",
     "date": "2026-11-18",
@@ -121,7 +121,7 @@
     "title": "Model 1, Ground Floor Plan (Design Development, CAD)",
     "plan": "1",
     "revision": "DD-1",
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "status": "Design Development",
     "file": "drawings/construction-documents/A-101.1_Model1_Ground_Floor_Plan.pdf"
   },
@@ -199,7 +199,7 @@
   },
   {
     "sheet": "A-202.1",
-    "title": "Model 1, Exterior Elevations East and West (Design Development, CAD)",
+    "title": "Model 1, Exterior Elevations \u2014 East, West (Design Development, CAD)",
     "plan": "1",
     "revision": "DD-1",
     "date": "2026-11-18",
@@ -226,7 +226,7 @@
   },
   {
     "sheet": "G-005",
-    "title": "Model 1, Rated Assemblies and Life Safety Plans (Design Development, CAD)",
+    "title": "Model 1, Rated Assemblies and Life Safety Plan (Design Development, CAD)",
     "plan": "1",
     "revision": "DD-1",
     "date": "2026-11-18",
@@ -235,7 +235,7 @@
   },
   {
     "sheet": "C-101",
-    "title": "Model 1, Architectural Site Plan (Design Development, CAD)",
+    "title": "Model 1, Site Plan (Design Development, CAD)",
     "plan": "1",
     "revision": "DD-1",
     "date": "2026-11-18",
@@ -280,7 +280,7 @@
   },
   {
     "sheet": "S-101",
-    "title": "Model 1, Foundation Plan (PT slab, design intent) (Design Development, CAD)",
+    "title": "Model 1, Foundation Plan \u2014 PT Slab (Design Development, CAD)",
     "plan": "1",
     "revision": "DD-1",
     "date": "2026-11-18",
@@ -289,7 +289,7 @@
   },
   {
     "sheet": "S-102",
-    "title": "Model 1, Second Floor Framing Plan (design intent) (Design Development, CAD)",
+    "title": "Model 1, Floor Framing Plan (Design Development, CAD)",
     "plan": "1",
     "revision": "DD-1",
     "date": "2026-11-18",
@@ -298,11 +298,110 @@
   },
   {
     "sheet": "S-103",
-    "title": "Model 1, Roof Framing Plan (design intent) (Design Development, CAD)",
+    "title": "Model 1, Roof Framing Plan (Design Development, CAD)",
     "plan": "1",
     "revision": "DD-1",
     "date": "2026-11-18",
     "status": "Design Development",
     "file": "drawings/construction-documents/S-103_Model1_Roof_Framing_Plan.pdf"
+  },
+  {
+    "sheet": "G-004",
+    "title": "Model 1, Accessibility Plan and Notes (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-004_Model1_Accessibility_Plan.pdf"
+  },
+  {
+    "sheet": "A-701",
+    "title": "Model 1, Reflected Ceiling Plans (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-701_Model1_Reflected_Ceiling_Plans.pdf"
+  },
+  {
+    "sheet": "S-201",
+    "title": "Model 1, Shear Wall Plan and Schedule (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-201_Model1_Shear_Wall_Plan.pdf"
+  },
+  {
+    "sheet": "X-101",
+    "title": "Model 1, MEP Coordination, Chase and Penetration Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/X-101_Model1_MEP_Coordination_Plan.pdf"
+  },
+  {
+    "sheet": "M-101",
+    "title": "Model 1, Ground Floor HVAC Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/M-101_Model1_Ground_Floor_HVAC_Plan.pdf"
+  },
+  {
+    "sheet": "M-102",
+    "title": "Model 1, Upper Floor HVAC Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/M-102_Model1_Upper_Floor_HVAC_Plan.pdf"
+  },
+  {
+    "sheet": "P-101.1",
+    "title": "Model 1, Waste and Vent Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-101.1_Model1_Waste_and_Vent_Plan.pdf"
+  },
+  {
+    "sheet": "P-102.1",
+    "title": "Model 1, Water and Gas Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-102.1_Model1_Domestic_Water_Plan.pdf"
+  },
+  {
+    "sheet": "E-101",
+    "title": "Model 1, Ground Floor Electrical Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-101_Model1_Ground_Floor_Electrical_Plan.pdf"
+  },
+  {
+    "sheet": "E-102",
+    "title": "Model 1, Upper Floor Electrical Plan (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-102_Model1_Upper_Floor_Electrical_Plan.pdf"
+  },
+  {
+    "sheet": "FP-101",
+    "title": "Model 1, Fire Sprinkler Layout (Design Development, CAD)",
+    "plan": "1",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/FP-101_Model1_Fire_Sprinkler_Layout.pdf"
   }
 ]

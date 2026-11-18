@@ -619,5 +619,455 @@
     "date": "2026-11-18",
     "status": "Design Development",
     "file": "drawings/construction-documents/D-003_Model1_Accessibility_Details.pdf"
+  },
+  {
+    "sheet": "G-001",
+    "title": "Model 2, Cover Sheet and Index (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-001_Model2_Cover_Sheet_and_Index.pdf"
+  },
+  {
+    "sheet": "G-002",
+    "title": "Model 2, Code Analysis (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-002_Model2_Code_Analysis.pdf"
+  },
+  {
+    "sheet": "G-003",
+    "title": "Model 2, General Notes (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-003_Model2_General_Notes.pdf"
+  },
+  {
+    "sheet": "G-004",
+    "title": "Model 2, Accessibility Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-004_Model2_Accessibility_Plan.pdf"
+  },
+  {
+    "sheet": "G-005",
+    "title": "Model 2, Rated Assemblies Life Safety (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/G-005_Model2_Rated_Assemblies_Life_Safety.pdf"
+  },
+  {
+    "sheet": "C-101",
+    "title": "Model 2, Site Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/C-101_Model2_Site_Plan.pdf"
+  },
+  {
+    "sheet": "C-102",
+    "title": "Model 2, Grading and Drainage Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/C-102_Model2_Grading_and_Drainage_Plan.pdf"
+  },
+  {
+    "sheet": "C-103",
+    "title": "Model 2, Utility Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/C-103_Model2_Utility_Plan.pdf"
+  },
+  {
+    "sheet": "L-101",
+    "title": "Model 2, Landscape Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/L-101_Model2_Landscape_Plan.pdf"
+  },
+  {
+    "sheet": "A-103.2",
+    "title": "Model 2, Roof Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-103.2_Model2_Roof_Plan.pdf"
+  },
+  {
+    "sheet": "A-201.2",
+    "title": "Model 2, Exterior Elevations Long Faces (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-201.2_Model2_Exterior_Elevations_Long_Faces.pdf"
+  },
+  {
+    "sheet": "A-202.2",
+    "title": "Model 2, Exterior Elevations End Faces (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-202.2_Model2_Exterior_Elevations_End_Faces.pdf"
+  },
+  {
+    "sheet": "A-301.2",
+    "title": "Model 2, Building Sections (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-301.2_Model2_Building_Sections.pdf"
+  },
+  {
+    "sheet": "A-302",
+    "title": "Model 2, Wall Sections (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-302_Model2_Wall_Sections.pdf"
+  },
+  {
+    "sheet": "A-401",
+    "title": "Model 2, Enlarged Kitchen Plans (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-401_Model2_Enlarged_Kitchen_Plans.pdf"
+  },
+  {
+    "sheet": "A-402",
+    "title": "Model 2, Enlarged Bath Plans (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-402_Model2_Enlarged_Bath_Plans.pdf"
+  },
+  {
+    "sheet": "A-501",
+    "title": "Model 2, Interior Elevations (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-501_Model2_Interior_Elevations.pdf"
+  },
+  {
+    "sheet": "A-601",
+    "title": "Model 2, Door and Window Schedules (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-601_Model2_Door_and_Window_Schedules.pdf"
+  },
+  {
+    "sheet": "A-602",
+    "title": "Model 2, Finish Schedule (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-602_Model2_Finish_Schedule.pdf"
+  },
+  {
+    "sheet": "A-701",
+    "title": "Model 2, Reflected Ceiling Plans (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/A-701_Model2_Reflected_Ceiling_Plans.pdf"
+  },
+  {
+    "sheet": "S-001",
+    "title": "Model 2, Structural General Notes (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-001_Model2_Structural_General_Notes.pdf"
+  },
+  {
+    "sheet": "S-101",
+    "title": "Model 2, Foundation Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-101_Model2_Foundation_Plan.pdf"
+  },
+  {
+    "sheet": "S-102",
+    "title": "Model 2, Floor Framing Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-102_Model2_Floor_Framing_Plan.pdf"
+  },
+  {
+    "sheet": "S-103",
+    "title": "Model 2, Roof Framing Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-103_Model2_Roof_Framing_Plan.pdf"
+  },
+  {
+    "sheet": "S-201",
+    "title": "Model 2, Shear Wall Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-201_Model2_Shear_Wall_Plan.pdf"
+  },
+  {
+    "sheet": "S-501",
+    "title": "Model 2, Foundation Details (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-501_Model2_Foundation_Details.pdf"
+  },
+  {
+    "sheet": "S-502",
+    "title": "Model 2, Framing Details (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-502_Model2_Framing_Details.pdf"
+  },
+  {
+    "sheet": "S-503",
+    "title": "Model 2, Truss Details (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/S-503_Model2_Truss_Details.pdf"
+  },
+  {
+    "sheet": "X-101",
+    "title": "Model 2, MEP Coordination Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/X-101_Model2_MEP_Coordination_Plan.pdf"
+  },
+  {
+    "sheet": "M-001",
+    "title": "Model 2, Mechanical Notes Schedules (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/M-001_Model2_Mechanical_Notes_Schedules.pdf"
+  },
+  {
+    "sheet": "M-101",
+    "title": "Model 2, Ground Floor HVAC Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/M-101_Model2_Ground_Floor_HVAC_Plan.pdf"
+  },
+  {
+    "sheet": "M-102",
+    "title": "Model 2, Upper Floor HVAC Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/M-102_Model2_Upper_Floor_HVAC_Plan.pdf"
+  },
+  {
+    "sheet": "M-501",
+    "title": "Model 2, Mechanical Details (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/M-501_Model2_Mechanical_Details.pdf"
+  },
+  {
+    "sheet": "P-001",
+    "title": "Model 2, Plumbing Notes Schedules (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-001_Model2_Plumbing_Notes_Schedules.pdf"
+  },
+  {
+    "sheet": "P-101.2",
+    "title": "Model 2, Waste and Vent Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-101.2_Model2_Waste_and_Vent_Plan.pdf"
+  },
+  {
+    "sheet": "P-102.2",
+    "title": "Model 2, Domestic Water Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-102.2_Model2_Domestic_Water_Plan.pdf"
+  },
+  {
+    "sheet": "P-201",
+    "title": "Model 2, DWV and Water Riser Diagrams (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-201_Model2_DWV_and_Water_Riser_Diagrams.pdf"
+  },
+  {
+    "sheet": "P-202",
+    "title": "Model 2, Gas Riser Alternate (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/P-202_Model2_Gas_Riser_Alternate.pdf"
+  },
+  {
+    "sheet": "E-001",
+    "title": "Model 2, Electrical Notes Symbols (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-001_Model2_Electrical_Notes_Symbols.pdf"
+  },
+  {
+    "sheet": "E-101",
+    "title": "Model 2, Ground Floor Electrical Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-101_Model2_Ground_Floor_Electrical_Plan.pdf"
+  },
+  {
+    "sheet": "E-102",
+    "title": "Model 2, Upper Floor Electrical Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-102_Model2_Upper_Floor_Electrical_Plan.pdf"
+  },
+  {
+    "sheet": "E-201",
+    "title": "Model 2, One Line Diagram (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-201_Model2_One_Line_Diagram.pdf"
+  },
+  {
+    "sheet": "E-301",
+    "title": "Model 2, Panel Schedules Load Calcs (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-301_Model2_Panel_Schedules_Load_Calcs.pdf"
+  },
+  {
+    "sheet": "E-401",
+    "title": "Model 2, Site Electrical Plan (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/E-401_Model2_Site_Electrical_Plan.pdf"
+  },
+  {
+    "sheet": "FP-001",
+    "title": "Model 2, Fire Sprinkler Notes (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/FP-001_Model2_Fire_Sprinkler_Notes.pdf"
+  },
+  {
+    "sheet": "FP-101",
+    "title": "Model 2, Fire Sprinkler Layout (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/FP-101_Model2_Fire_Sprinkler_Layout.pdf"
+  },
+  {
+    "sheet": "EN-001",
+    "title": "Model 2, Energy Compliance (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/EN-001_Model2_Energy_Compliance.pdf"
+  },
+  {
+    "sheet": "D-001",
+    "title": "Model 2, Envelope Details (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/D-001_Model2_Envelope_Details.pdf"
+  },
+  {
+    "sheet": "D-002",
+    "title": "Model 2, Rated Assembly Details (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/D-002_Model2_Rated_Assembly_Details.pdf"
+  },
+  {
+    "sheet": "D-003",
+    "title": "Model 2, Accessibility Details (Design Development, CAD)",
+    "plan": "2",
+    "revision": "DD-1",
+    "date": "2026-11-18",
+    "status": "Design Development",
+    "file": "drawings/construction-documents/D-003_Model2_Accessibility_Details.pdf"
   }
 ]
